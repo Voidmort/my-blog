@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>我的博客</title>
+      <link>https://38324.cn</link>
+      <description>最近的10条笔记 on 我的博客</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>欢迎来到我的博客</title>
+    <link>https://38324.cn/</link>
+    <guid>https://38324.cn/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Tue, 11 Nov 2025 02:57:52 GMT</pubDate>
+  </item><item>
+    <title>模型微调工具</title>
+    <link>https://38324.cn/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83%E5%B7%A5%E5%85%B7</link>
+    <guid>https://38324.cn/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%A8%A1%E5%9E%8B%E5%BE%AE%E8%B0%83%E5%B7%A5%E5%85%B7</guid>
+    <description><![CDATA[  2.1 模型微调工具 2.1.1 推荐工具 github.com/hiyouga/LLaMA-Factoryhttps://github.com/modelscope/ms-swift github.com/unslothai/unsloth github.com/huggingface/pefi 2.1.2 其它工具 github.com/huggingface/autotrain-advancedhttps://github.com/huggingface/trl github.com/Lightning-Al/litgpt github.com/bigscience-workshop/... ]]></description>
+    <pubDate>Mon, 10 Nov 2025 10:43:34 GMT</pubDate>
+  </item><item>
+    <title>以太坊开发者指南（一）：开启区块链探险之旅</title>
+    <link>https://38324.cn/WEB3/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%BC%80%E5%90%AF%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8E%A2%E9%99%A9%E4%B9%8B%E6%97%85</link>
+    <guid>https://38324.cn/WEB3/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%BC%80%E5%90%AF%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8E%A2%E9%99%A9%E4%B9%8B%E6%97%85</guid>
+    <description><![CDATA[ 以太坊开发者指南：开启区块链探险之旅 嘿！你听说过以太坊的大名了吧？这可是科技圈的“魔法森林”。如果你已经准备好跳进这个既神秘又充满机遇的“兔子洞”，那恭喜你，旅程马上开始！ 这篇文章就像你的“冒险地图”——我们先来唠唠区块链的那些事儿，再手把手教你和以太坊节点打交道：读取区块、查看账户、发送交易，全程带你上手。过程中你还会体会到，传统的应用开发和去中心化世界到底差多远。 放心，我们不会让你被技术术语吓跑。咱们要用的 Python 工具只是思想的“信使”，不是数学考试题。就算你不是 Python 高手，也一样能轻松跟上节奏。 前置假设：装备检查 在正式出发前，咱们先确认装备齐全： ✅ 你能打开... ]]></description>
+    <pubDate>Mon, 10 Nov 2025 03:36:38 GMT</pubDate>
+  </item><item>
+    <title>以太坊开发者指南（三）：智能合约详解</title>
+    <link>https://38324.cn/WEB3/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E8%AF%A6%E8%A7%A3</link>
+    <guid>https://38324.cn/WEB3/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E8%AF%A6%E8%A7%A3</guid>
+    <description><![CDATA[ 以太坊开发者指南（三）：智能合约详解 欢迎阅读本系列的第三部分！在第一部分中，我们介绍了区块链的基础知识；第二部分则深入探讨了以太坊账户及其如何参与网络活动。本部分将在此基础上，引入智能合约这一核心概念。 智能合约简介 以太坊区块链承载着巨大的价值。在之前的文章中，我们讨论了以太币如何通过交易在用户之间流转。然而，该网络的能力远不止于此，它能够实现更为复杂的交互，而这些复杂用例正是通过智能合约得以实现的。 首先，让我们给出一个简单的定义：智能合约是部署到区块链上的代码（即计算机程序）。其流行语中的“合约”一词，体现了这些程序的相对永久性，因为它们决定了资产的转移方式；而“智能”则彰显了它们的可... ]]></description>
+    <pubDate>Mon, 10 Nov 2025 03:36:30 GMT</pubDate>
+  </item><item>
+    <title>以太坊开发者指南（二）：开启交易的钥匙</title>
+    <link>https://38324.cn/WEB3/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%BC%80%E5%90%AF%E4%BA%A4%E6%98%93%E7%9A%84%E9%92%A5%E5%8C%99</link>
+    <guid>https://38324.cn/WEB3/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E5%BC%80%E5%90%AF%E4%BA%A4%E6%98%93%E7%9A%84%E9%92%A5%E5%8C%99</guid>
+    <description><![CDATA[ 以太坊开发者指南（二）：开启交易的钥匙 欢迎回归！在本系列的第一部分中，我们通过与模拟以太坊网络的交互，深入探讨了诸多核心概念。现在，您应该对以下基本问题有了初步的认识： 什么是区块链，区块中包含哪些内容？ 什么因素使得以太坊实现去中心化？ 什么是以太（Ether），为何它是网络不可或缺的组成部分？ 在本文中，我们将基于这些基础知识，进一步探讨它们对开发者的实际影响。如果您错过了第一部分或需要回顾，请务必返回查阅。 下一步探索：账户 我们将从账户入手，深入剖析如何与以太坊网络进行交互。值得注意的是，以太坊账户与Web 2.0时代的账户存在显著差异。 注： “Web 2.0”一词最初用于描述引入... ]]></description>
+    <pubDate>Mon, 10 Nov 2025 03:36:21 GMT</pubDate>
+  </item><item>
+    <title>10. 什么是以太坊的隐私？</title>
+    <link>https://38324.cn/WEB3/10.-%E4%BB%80%E4%B9%88%E6%98%AF%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%9A%84%E9%9A%90%E7%A7%81%EF%BC%9F</link>
+    <guid>https://38324.cn/WEB3/10.-%E4%BB%80%E4%B9%88%E6%98%AF%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%9A%84%E9%9A%90%E7%A7%81%EF%BC%9F</guid>
+    <description><![CDATA[ 隐私：以太坊生态的基石与挑战 隐私不仅关乎个人安全，更是自由的基石以及去中心化的关键保障。它赋予人们自由表达、交易和组织社群的强大能力。然而，和所有区块链一样，以太坊的公共账本设计给隐私保护带来了诸多挑战。 以太坊的透明性设计 以太坊的设计本质上是高度透明的，链上的所有操作对任何人而言都清晰可见。尽管以太坊通过将活动与公钥相关联，而非直接关联真实身份，提供了一定程度的假名保护，但活动模式仍可能被深入分析，进而泄露敏感信息并识别出用户身份。 在以太坊中构建隐私保护工具，对于个人、组织和机构的安全交互至关重要，同时能有效限制不必要的信息暴露。这不仅显著增强了生态系统的安全性，还使其能够适用于更为广... ]]></description>
+    <pubDate>Mon, 10 Nov 2025 03:36:08 GMT</pubDate>
+  </item><item>
+    <title>9. 什么是安全的以太坊措施？</title>
+    <link>https://38324.cn/WEB3/9.-%E4%BB%80%E4%B9%88%E6%98%AF%E5%AE%89%E5%85%A8%E7%9A%84%E4%BB%A5%E5%A4%AA%E5%9D%8A%E6%8E%AA%E6%96%BD%EF%BC%9F</link>
+    <guid>https://38324.cn/WEB3/9.-%E4%BB%80%E4%B9%88%E6%98%AF%E5%AE%89%E5%85%A8%E7%9A%84%E4%BB%A5%E5%A4%AA%E5%9D%8A%E6%8E%AA%E6%96%BD%EF%BC%9F</guid>
+    <description><![CDATA[ 以太坊安全指南：保护你的数字资产 随着加密货币的日益普及，黑客和诈骗者的威胁也在不断增加。本文将介绍一些降低风险的最佳实践，帮助你安全地使用以太坊。 重要提示：ethereum.org 团队绝不会主动联系你。 请不要回复任何声称来自以太坊官方支持的邮件。 加密货币安全基础 提升你的知识水平 对加密货币运作机制的误解可能导致严重错误。例如，有人可能冒充客服，声称可以帮你找回丢失的以太币，以换取你的私钥。这实际上是在利用你对以太坊去中心化特性的不了解。深入理解以太坊的工作原理是一项重要的投资。 钱包安全 保护你的私钥 切勿与任何人分享你的私钥！ 私钥是访问你以太坊钱包的密码，是防止他人盗取你资产的... ]]></description>
+    <pubDate>Mon, 10 Nov 2025 03:36:01 GMT</pubDate>
+  </item><item>
+    <title>8. 什么是以太坊节点？</title>
+    <link>https://38324.cn/WEB3/8.-%E4%BB%80%E4%B9%88%E6%98%AF%E4%BB%A5%E5%A4%AA%E5%9D%8A%E8%8A%82%E7%82%B9%EF%BC%9F</link>
+    <guid>https://38324.cn/WEB3/8.-%E4%BB%80%E4%B9%88%E6%98%AF%E4%BB%A5%E5%A4%AA%E5%9D%8A%E8%8A%82%E7%82%B9%EF%BC%9F</guid>
+    <description><![CDATA[ 运行你自己的以太坊节点 “Don’t trust, verify.” —— 不要信任，亲自验证。 运行属于你自己的以太坊节点，是实现完全控制与自主权的最佳方式。 它不仅能帮助你安全地与网络交互，还能增强整个以太坊生态系统的去中心化和抗审查性。 一、为什么要运行自己的节点？ 运行节点意味着： 你直接连接到以太坊网络，而非依赖第三方服务； 你自己验证区块与交易的真实性； 你在帮助整个网络维持安全性与去中心化。 换句话说，运行节点让你成为真正的以太坊公民。 不是被动使用者，而是积极参与者。 二、什么是以太坊节点？ 以太坊节点（Node）是运行**客户端软件（Client）**的计算机。 它的主要职责... ]]></description>
+    <pubDate>Mon, 10 Nov 2025 03:35:54 GMT</pubDate>
+  </item><item>
+    <title>5. 什么是燃料费？</title>
+    <link>https://38324.cn/WEB3/5.-%E4%BB%80%E4%B9%88%E6%98%AF%E7%87%83%E6%96%99%E8%B4%B9%EF%BC%9F</link>
+    <guid>https://38324.cn/WEB3/5.-%E4%BB%80%E4%B9%88%E6%98%AF%E7%87%83%E6%96%99%E8%B4%B9%EF%BC%9F</guid>
+    <description><![CDATA[ 什么是燃料费？ 网络费用 在以太坊生态中，网络费用被称作“燃料”。它就像以太坊的“动力源”，为整个网络运转提供能量。 概览 以太坊上的每一笔交易，都需要支付少量的处理费用。 这类费用被统一称为“燃料”费。 燃料费并非固定不变，而是会随着网络拥塞状况发生波动。 什么是燃料费？ 可以把以太坊想象成一个大型的计算机网络，人们在这个网络上能够执行发送信息、运行程序等各种任务。就像在现实世界中完成任务需要能量一样，在以太坊中完成这些任务同样需要能量。 在以太坊里，每个计算操作都设定了相应的“燃料”价格。燃料费指的是在交易过程中所执行操作的总费用。当用户发送交易或者运行智能合约时，必须支付燃料费，交易才能... ]]></description>
+    <pubDate>Mon, 10 Nov 2025 03:35:39 GMT</pubDate>
+  </item><item>
+    <title>4. 什么是智能合约?</title>
+    <link>https://38324.cn/WEB3/4.-%E4%BB%80%E4%B9%88%E6%98%AF%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6</link>
+    <guid>https://38324.cn/WEB3/4.-%E4%BB%80%E4%B9%88%E6%98%AF%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6</guid>
+    <description><![CDATA[ 智能合约简介 智能合约（Smart Contract）是以太坊应用层的基石。它是存储在区块链上的一段计算机程序，遵循“如果……那么……”（IFTTT）逻辑，能够在满足特定条件时自动执行。 一旦部署到区块链上，智能合约将不可更改、自动执行、公开透明，从而在无需中介的情况下实现安全可信的交易与协作。 一、起源与理念 “智能合约”一词由密码学家 Nick Szabo 于 1994 年提出。 他在论文《Smart Contracts: Building Blocks for Digital Free Markets》中设想了一个无需信任中介的数字市场，其中交易规则可以通过加密手段自动执行。 Szabo... ]]></description>
+    <pubDate>Mon, 10 Nov 2025 03:35:31 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

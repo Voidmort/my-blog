@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr"><head><title>图书馆学</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="我的博客"/><meta property="og:title" content="图书馆学"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="图书馆学"/><meta name="twitter:description" content="图书馆学基础 (P138) 1.试述数据、信息、知识、文献之间的关系 (P138) 数据是对某种情况的记录，包括数值数据与非数值数据，它是能够被记录和储存在计算机等媒体上的已知事实 经过加工处理后形成的具有参考价值的数据就转化为信息，信息是具有普遍性的事物运动的状态和方式，是由事物发出的数据、信号中所包含的意义。信息是知识的原料 知识来源于信息，是被人类系统化后的信息的一部分。知识可以促进信息的再生，新的信息又可以转换为新的知识 文献是储存与传递知识的载体，它是知识的一种物化形态，是知识范畴中的显性知识部分 2.简述图书馆学研究对象与研究客体的关系 P139 图书馆学研究对象是图书馆学所要阐释..."/><meta property="og:description" content="图书馆学基础 (P138) 1.试述数据、信息、知识、文献之间的关系 (P138) 数据是对某种情况的记录，包括数值数据与非数值数据，它是能够被记录和储存在计算机等媒体上的已知事实 经过加工处理后形成的具有参考价值的数据就转化为信息，信息是具有普遍性的事物运动的状态和方式，是由事物发出的数据、信号中所包含的意义。信息是知识的原料 知识来源于信息，是被人类系统化后的信息的一部分。知识可以促进信息的再生，新的信息又可以转换为新的知识 文献是储存与传递知识的载体，它是知识的一种物化形态，是知识范畴中的显性知识部分 2.简述图书馆学研究对象与研究客体的关系 P139 图书馆学研究对象是图书馆学所要阐释..."/><meta property="og:image:alt" content="图书馆学基础 (P138) 1.试述数据、信息、知识、文献之间的关系 (P138) 数据是对某种情况的记录，包括数值数据与非数值数据，它是能够被记录和储存在计算机等媒体上的已知事实 经过加工处理后形成的具有参考价值的数据就转化为信息，信息是具有普遍性的事物运动的状态和方式，是由事物发出的数据、信号中所包含的意义。信息是知识的原料 知识来源于信息，是被人类系统化后的信息的一部分。知识可以促进信息的再生，新的信息又可以转换为新的知识 文献是储存与传递知识的载体，它是知识的一种物化形态，是知识范畴中的显性知识部分 2.简述图书馆学研究对象与研究客体的关系 P139 图书馆学研究对象是图书馆学所要阐释..."/><meta property="twitter:domain" content="38324.cn"/><meta property="og:url" content="https://38324.cn/信息资源管理笔记/图书馆学"/><meta property="twitter:url" content="https://38324.cn/信息资源管理笔记/图书馆学"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="图书馆学基础 (P138) 1.试述数据、信息、知识、文献之间的关系 (P138) 数据是对某种情况的记录，包括数值数据与非数值数据，它是能够被记录和储存在计算机等媒体上的已知事实 经过加工处理后形成的具有参考价值的数据就转化为信息，信息是具有普遍性的事物运动的状态和方式，是由事物发出的数据、信号中所包含的意义。信息是知识的原料 知识来源于信息，是被人类系统化后的信息的一部分。知识可以促进信息的再生，新的信息又可以转换为新的知识 文献是储存与传递知识的载体，它是知识的一种物化形态，是知识范畴中的显性知识部分 2.简述图书馆学研究对象与研究客体的关系 P139 图书馆学研究对象是图书馆学所要阐释..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL3dhbmd4dWppZS9xdWFydHovcXVhcnR6L2NvbXBvbmVudHMvc3R5bGVzIiwic291cmNlcyI6WyJtZXJtYWlkLmlubGluZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFHRjtFQUNFOzs7QUFLRjtFQUNFO0VBQ0E7OztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBhZGRpbmc6IDJyZW07XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICB0cmFuc2Zvcm0tb3JpZ2luOiAwIDA7XG4gICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4xcyBlYXNlO1xuICAgICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgICBtaW4taGVpZ2h0OiAyMDBweDtcbiAgICAgIG1pbi13aWR0aDogMjAwcHg7XG5cbiAgICAgIHByZSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgfVxuXG4gICAgICBzdmcge1xuICAgICAgICBtYXgtd2lkdGg6IG5vbmU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgIH1cbiAgICB9XG5cbiAgICAmID4gLm1lcm1haWQtY29udHJvbHMge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgYm90dG9tOiAyMHB4O1xuICAgICAgcmlnaHQ6IDIwcHg7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZ2FwOiA4cHg7XG4gICAgICBwYWRkaW5nOiA4cHg7XG4gICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgYm9yZGVyLXJhZGl1czogNnB4O1xuICAgICAgYm94LXNoYWRvdzogMCAycHggNHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcbiAgICAgIHotaW5kZXg6IDI7XG5cbiAgICAgIC5tZXJtYWlkLWNvbnRyb2wtYnV0dG9uIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIHdpZHRoOiAzMnB4O1xuICAgICAgICBoZWlnaHQ6IDMycHg7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgICAgY29sb3I6IHZhcigtLWRhcmspO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICBmb250LWZhbWlseTogdmFyKC0tYm9keUZvbnQpO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xuXG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIH1cblxuICAgICAgICAmOmFjdGl2ZSB7XG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDFweCk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBTdHlsZSB0aGUgcmVzZXQgYnV0dG9uIGRpZmZlcmVudGx5XG4gICAgICAgICY6bnRoLWNoaWxkKDIpIHtcbiAgICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgICBwYWRkaW5nOiAwIDEycHg7XG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG4iXX0= */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://38324.cn/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://38324.cn/信息资源管理笔记/图书馆学-og-image.webp"/><meta property="og:image:url" content="https://38324.cn/信息资源管理笔记/图书馆学-og-image.webp"/><meta name="twitter:image" content="https://38324.cn/信息资源管理笔记/图书馆学-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="信息资源管理笔记/图书馆学"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">我的博客</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>搜索</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="搜索些什么" placeholder="搜索些什么"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="暗色模式"><title>暗色模式</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="亮色模式"><title>亮色模式</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="阅读模式"><title>阅读模式</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-124"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>探索</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-124" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../信息资源管理笔记/">信息资源管理笔记</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>图书馆学</a></div></nav><h1 class="article-title">图书馆学</h1><p show-comma="true" class="content-meta"><time datetime="2025-11-10T03:16:53.845Z">2025年11月10日</time><span>95分钟阅读</span></p><ul class="tags"><li><a href="../tags/信息资源管理学" class="internal tag-link">信息资源管理学</a></li></ul></div></div><article class="popover-hint"><p>图书馆学基础 (P138)</p>
+<h2 id="1试述数据信息知识文献之间的关系-p138">1.试述数据、信息、知识、文献之间的关系 (P138)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1试述数据信息知识文献之间的关系-p138" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>数据是对某种情况的记录，包括数值数据与非数值数据，它是能够被记录和储存在计算机等媒体上的已知事实</li>
+<li>经过加工处理后形成的具有参考价值的数据就转化为信息，信息是具有普遍性的事物运动的状态和方式，是由事物发出的数据、信号中所包含的意义。信息是知识的原料</li>
+<li>知识来源于信息，是被人类系统化后的信息的一部分。知识可以促进信息的再生，新的信息又可以转换为新的知识</li>
+<li>文献是储存与传递知识的载体，它是知识的一种物化形态，是知识范畴中的显性知识部分</li>
+</ol>
+<h2 id="2简述图书馆学研究对象与研究客体的关系-p139">2.简述图书馆学研究对象与研究客体的关系 P139<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2简述图书馆学研究对象与研究客体的关系-p139" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>图书馆学研究对象是图书馆学所要阐释一种社会的本质现象，而研究客体则是与这种本质现象发生密切联系的一个现象系统。
+图书馆学的研究客体是客观知识、知识集合、知识受众以及相互之间的关系。就一门学科而言，其研究客体包含了研究对象，并以研究对象为其客体系统的核心</p>
+<h2 id="3简述文献单元与知识单元有哪些区别-p141">3.简述文献单元与知识单元有哪些区别 P141<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3简述文献单元与知识单元有哪些区别-p141" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>文献单元：是专门记录和传递有知识的人工载体单元，如一本书、一篇文章等</p>
+<p>知识单元：是知识系统中有实际意义的基本单位。如一个概念、公式等</p>
+<p>前者具有“硬性”特点，后者具有“软性”特点；前者往往表现为知识体系，后者往往表现为知识点；前者是静止的，后者是衍变的；前者组织方法比较单一，后者组织方法则复杂多样。但文献单元与知识单元又是相互联系的，在许多方面又有着共同的特性</p>
+<h2 id="4简述图书馆读者权力有哪些-p142">4.简述图书馆读者权力有哪些 P142<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4简述图书馆读者权力有哪些-p142" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>读者在获取知识活动中享有平等获取知识权，自由选择知识权，知识信息知情权，知识服务保障权，对知识服务机构的批评、建议和监督权等</p>
+<h2 id="5举出两位图书馆学家试述其主要贡献-p146">5.举出两位图书馆学家，试述其主要贡献 P146<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5举出两位图书馆学家试述其主要贡献-p146" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>文献整理编纂家：刘向刘歆父子，郑樵，王云五
+经营服务扩展家：柳诒徽，袁同礼
+学科理论创建家：梁启超，杜定友，刘国钧
+专业人才教育家：韦隶华女士，王重民</p>
+<h2 id="6图书馆事业的主要特征有哪些-p148">6.图书馆事业的主要特征有哪些 P148<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6图书馆事业的主要特征有哪些-p148" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>典型的公益性社会事业，由于图书馆属于公共物品，所以它成为社会公益事业的一个重要组成部分。一个国家图书馆事业的繁荣、发展水平，折射出该国家社会福利、公平与正义的发展水平</li>
+<li>突出的文化教育性职能，图书馆既是保存文化、传播文化、融合文化、创新文化的重要工具，同时也是实现自我教育、穷人教育，全面教育、终身教育的重要手段。</li>
+<li>重要的社会公共知识空间，图书馆可以向人们提供社会化的、客观化的大量显性知识媒介，所以本质上它是人们可以自由出入的、开放的一个公共知识空间</li>
+</ol>
+<h2 id="7图书馆事业建设应遵循哪些原则-p148">7.图书馆事业建设应遵循哪些原则 P148<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7图书馆事业建设应遵循哪些原则-p148" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>政府承担投资主体的责任，国家和政府是图书馆事业的投资主体。</li>
+<li>国家力量和社会力量相结合，由于国家和政府的财力优先，社会力量包括基金会、社会团体、企业、个人等。依靠社会积极性举办基层图书馆，是发展图书管事业、适应社会信息需求的重要原则与措施</li>
+<li>全面规划与分工合作相结合，一要统筹安排，合理布局，保持图书馆事业的平衡发展，二要全面进行规划，既要保证重点图书馆的建设，使其在图书馆资源建设上达到先进水平，发挥它们对现代图书馆建设的促进作用和示范作用，又要支持和扶持中小型图书馆与民办图书馆的发展。三要相互协作与协调，加强图书馆业务辅导，以建设起一个分工协作的社会图书馆网络体系</li>
+<li>发展图书馆学教育，加强图书馆学研究，图书馆事业的发展依赖于图书馆学教育与图书馆学理论研究成果的支持与指导。同时，图书馆学理论研究对图书馆事业建设和图书馆实际工作有着积极的推动作用</li>
+</ol>
+<h2 id="8试述图书馆工作标准化的作用与意义-p152">8.试述图书馆工作标准化的作用与意义 P152<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8试述图书馆工作标准化的作用与意义-p152" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>图书馆工作标准化的作用：</p>
+<ol>
+<li>使图书馆工作由繁变简，由杂乱走向统一和规范</li>
+<li>减少重复劳动，节省各种资源，提高图书馆工作质量和社会效益</li>
+<li>确保图书馆工作的成果和用品科学、统一、通用</li>
+<li>加速图书馆工作现代化，充分发挥图书馆现代技术的作用</li>
+<li>提高图书馆工作的计划性和整体性，有利于图书馆事业的整体协调与国际合作</li>
+</ol>
+<p>图书馆工作标准化的意义：</p>
+<p>有利于图书馆工作的现代化，有利于图书馆事业的协调与协作，有利于图书馆集中统一的管理</p>
+<h2 id="9什么是信息资源建设请说明信息资源建设的具体内涵-p153">9.什么是信息资源建设？请说明信息资源建设的具体内涵 P153<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#9什么是信息资源建设请说明信息资源建设的具体内涵-p153" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>信息资源建设是指人类对处于无序状态的各种媒介信息进行选择、采集、组织和开发等活动，使之形成可资利用的信息资源体系的全过程。信息资源建设的内涵包括三个方面：信息资源建设所针对的是处于无序状态的各种媒介的信息，信息资源建设活动的内容是对信息进行选择、采集、组织和开发，信息资源建设的目的是形成可资利用的信息资源体系。</p>
+<p>信息资源建设的内容：</p>
+<ol>
+<li>信息资源体系规划。根据信息资源体系的功能要求，设计信息资源体系的微观结构和宏观结构</li>
+<li>信息资源的选择与采集。根据已经确定的信息资源体系的基本模式，通过各种途径，选择与采集信息资源，建立并充实馆藏，扩大“虚拟馆藏”，是信息资源建设的基础工作</li>
+<li>馆藏数字化与数据库建设。运用计算机和大容量的存储技术、全文扫描技术、多媒体技术，将馆藏中具有独特价值的印刷性文献转化为扫描版全文电子文献，制成光盘或在网上传播，同时开发图书馆的书目资源和特色资源，编制数目资源数据库和特色资源数据库，提供网上利用</li>
+<li>网络信息资源的开发利用，根据用户的需求与信息资源建设的需求，搜索、选择、挖掘因特网中的信息资源，并下载到本馆或本地网络中，建立信息资源导航库以方便用户迅速检索和利用</li>
+<li>信息资源的组织管理，对入藏的文献信息资源进行加工、整序、布局、排列、清点和保护；对数字化信息资源进行整合，将购买的数据库与自建的数据库有机地集成一体，对其内容进行充分地揭示，实现跨库检索，提供一站式服务</li>
+<li>信息资源共建和共享，通过整体规划与图书馆之间地分工协调，建设相对完备地文献信息资源保障体系，形成覆盖面宽，可利用方便快捷地数目信息网络，实现网络公共查询、联机合作编目</li>
+</ol>
+<h2 id="10什么是数字化信息资源它包括了哪些类型的信息资源-p152">10.什么是数字化信息资源？它包括了哪些类型的信息资源 P152<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#10什么是数字化信息资源它包括了哪些类型的信息资源-p152" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>数字化信息资源是指数字化的形式，将文字、图像、声音、动画等多种形式的信息存储在光、磁盘等非纸质载体中，以光信号、电信号的形式传输，并通过计算机和其他外部设备再现出来的信息资源。它包括网络信息资源和单机信息资源。</p>
+<h2 id="11信息资源建设政策有哪些基本内容-p153-p156">11.信息资源建设政策有哪些基本内容 P153 P156<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#11信息资源建设政策有哪些基本内容-p153-p156" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>信息资源建设政策是人们为实现信息资源建设目标而制定的方针、原则、策略、措施、对策等。</p>
+<p>信息资源建设政策的基本内容包括：</p>
+<ol>
+<li>图书馆所服务的地区或机构的基本情况和图书馆任务的分析</li>
+<li>图书馆信息资源现状分析</li>
+<li>信息资源建设目标的确定</li>
+<li>图书馆信息资源结构的规划</li>
+<li>印刷型文献的采访政策</li>
+<li>数字馆藏建设政策</li>
+<li>书刊交换与接受赠书政策</li>
+<li>经费分配政策</li>
+<li>馆藏信息资源管理政策</li>
+</ol>
+<h2 id="12何为参考咨询参考咨询的基本内容有哪些-p159">12.何为参考咨询？参考咨询的基本内容有哪些 P159<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#12何为参考咨询参考咨询的基本内容有哪些-p159" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>参考咨询是图书馆员对读者在利用文献和寻求知识、情报提供帮助的活动。它以协助检索、解答咨询和专题文献报道等方式向读者提供事实、数据和文献线索。或者说，参考咨询是参考咨询馆员以文献为依据，通过编制资料或利用检索工具等方式，有针对性地为用户揭示，检索和传递知识信息的信息服务工作。</p>
+<p>参考咨询的内容：</p>
+<ol>
+<li>答复咨询，就是对读者提出的一般知识性问题如事实、数据等，通过查阅各种载体的工具书及有关的书刊资料等，直接给予答复；或者指引读者自己查阅有关的工具书及其它书刊资料，求的问题的解决。</li>
+<li>书目参考，则是对读者提出的一些研究性问题，通过提供各种形式的专题文献目录索引，供读者查阅所需文献资料，以解决有关课题的咨询</li>
+<li>信息检索，是指将信息按一定方式组织和存储起来，并按需检索有关信息的程序、方法和过程</li>
+<li>情报研究，指根据用户的特定需要，为用户收集、处理、研究和提供情报信息</li>
+<li>用户教育，指为读者熟悉与利用图书馆、向读者普及信息检索知识等提供辅导和培训的活动</li>
+<li>参考服务评价，是指对参考咨询服务工作作出定性或定量的评价，以检查发现参考咨询服务中的问题，促进工作的改进，提高服务的质量</li>
+</ol>
+<h2 id="13参考信息源有哪些类型-p164">13.参考信息源有哪些类型 P164<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#13参考信息源有哪些类型-p164" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>参考信息源可粗略地分为传统参考信息源和电子参考信息源，前者即为印刷型工具书，后者为电子工具书。</p>
+<h2 id="14书目参考方法主要有哪些-p166">14.书目参考方法主要有哪些 P166<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#14书目参考方法主要有哪些-p166" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>书目参考工作地立足点是建立在对文献信息地加工上</p>
+<p>粗加工的书目参考服务包括编写题录、新刊目次报道、新书报道、信息摘编等，精加工的专题情报服务包括编制专题书目、专题索引、专题文摘、引文索引、地方文献书目等，综合性的情报研究包括撰写综述、述评和研究报告等。</p>
+<h2 id="15何为虚拟参考咨询虚拟参考咨询有什么特点-p167">15.何为虚拟参考咨询？虚拟参考咨询有什么特点 P167<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#15何为虚拟参考咨询虚拟参考咨询有什么特点-p167" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>虚拟参考咨询又称虚拟参考服务，虚拟参考服务是建立在网络基础上的将用户与专家和学科专门知识联系起来的问答式服务。或者说，虚拟参考咨询是建立在数字通信基础上，通过网络收发电子邮件、网页表单或者使用在线聊天软件、呼叫中心软件、视频会议软件、网络联系中心软件、即时视像软件等，给远程用户提供方便、快捷的信息咨询服务。</p>
+<p>虚拟参考咨询的特点：</p>
+<ol>
+<li>咨询参考源多元化</li>
+<li>咨询服务手段自动化</li>
+<li>咨询服务方式多样化</li>
+<li>咨询服务内容信息化</li>
+<li>咨询服务对象广域化</li>
+<li>咨询服务队伍专业化</li>
+<li>咨询服务观念人本化</li>
+</ol>
+<h2 id="16虚拟参考咨询有哪些主要方式-p169">16.虚拟参考咨询有哪些主要方式 P169<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#16虚拟参考咨询有哪些主要方式-p169" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>E-mail及Web表单服务</li>
+<li>FAQ服务</li>
+<li>案例库服务</li>
+<li>专题库与特色库服务</li>
+<li>Real-time服务</li>
+<li>BBS服务</li>
+<li>科学导航服务</li>
+<li>电子剪报服务</li>
+<li>电子文献传递服务</li>
+<li>用户教育服务</li>
+</ol>
+<h2 id="17数字图书馆的体系构成有哪些方面-p173-p174">17.数字图书馆的体系构成有哪些方面 P173 P174<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#17数字图书馆的体系构成有哪些方面-p173-p174" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>技术构成：</p>
+<ol>
+<li>知识信息的采集和移植</li>
+<li>知识信息的组织</li>
+<li>知识信息的检索</li>
+<li>知识信息的安全</li>
+</ol>
+<p>体系构成：</p>
+<ol>
+<li>资源加工系统</li>
+<li>储存管理系统</li>
+<li>资源调度系统</li>
+<li>网络运营系统</li>
+</ol>
+<h2 id="18数字图书馆有哪些功能-p174">18.数字图书馆有哪些功能 P174<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#18数字图书馆有哪些功能-p174" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>知识信息的获取与创建</li>
+<li>知识信息的存储与管理</li>
+<li>知识信息的访问与查询</li>
+<li>知识信息的动态与发布</li>
+<li>知识信息的权限管理</li>
+</ol>
+<h2 id="19我国数字图书馆建设面临的问题有哪些-p175">19.我国数字图书馆建设面临的问题有哪些 P175<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#19我国数字图书馆建设面临的问题有哪些-p175" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>技术发展问题</li>
+<li>知识产权问题</li>
+<li>人才培养问题</li>
+<li>运用模式问题</li>
+</ol>
+<h2 id="20信息资源建设的内容-p154">20.信息资源建设的内容 P154<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#20信息资源建设的内容-p154" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>信息资源体系规划</li>
+<li>信息资源的选择与采集</li>
+<li>馆藏资源数字化与数据库建设</li>
+<li>网络信息资源的开发利用</li>
+<li>信息资源的组织与管理</li>
+<li>信息资源共建与共享</li>
+<li>信息资源建设基本理论与方法研究</li>
+</ol>
+<h2 id="21信息资源建设的原则-p155">21.信息资源建设的原则 P155<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#21信息资源建设的原则-p155" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>文献资源建设是指依据图书情报机构的服务任务与服务对象以及整个社会的文献情报需求，系统地规划、选择、收集、组织管理文献资源，建立特定功能的文献资源体系的全过程。</p>
+<ol>
+<li>实用性原则，指图书馆以及其他类型信息机构要从实际使用出发，规划、选择、收集、整序、组织和管理文献资源，以最大限度地满足社会文献信息需求。它是信息资源建设地基本原则，要求各类型图书馆和其他信息机构根据具体地服务任务和服务对象地需求来进行信息资源建设，建立符合实际使用需要地学习资源体系</li>
+<li>系统性原则，指在学习资源建设中要特别注意宏观和微观地信息系统中各个要素之间地相互关系，注意信息资源系统与环境的联系。他是由科学知识的系统性、信息资源自身的系统性、读者需求的系统性、保存于传递的系统性所决定的</li>
+<li>特色化原则，指一个图书馆的信息资源应该具有自己独特的风格，具有其他图书馆信息资源不同的特点。数字化环境中，信息资源建设特色化包括两个方面：一是馆藏文献特色化建设，二是特色数据库建设。图书馆应该建设具有学科特色、专题特色、地方特色、文献类型特色的信息资源体系</li>
+<li>共建共享性原则，指一个地区、一个系统、一个国家，乃至全球的图书馆之间，图书馆与其他信息机构之间建立广泛的合作关系，科学划分，分工协作，共同建设，相互提供利用，建立相互联系、相互依存的信息资源保障体系。</li>
+</ol>
+<p>文献资源建设的四项原则是一个相互联系、不可分割的统一体。实用性是基本原则，系统性和特色化则既要以实用性为前提，又是实用性原则保证。共建共享原则则把信息资源建设的实用性、系统性和特色化从微观邻域带入宏观邻域，丰富了这些原则的内涵，同时也使信息资源建设真正成为一项社会性的事业，并对促进社会的发展和进步发挥重要的作用。</p>
+<h2 id="22郑樵">22.郑樵<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#22郑樵" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>字渔仲，南宋人，根据大量文献资料编辑的《通志》200券是一部综合历史史料而成的通史，其中总天下学术、条其纲目而编就的《二十略》被《四库全书总目》评价为《通志》全帙的菁华所在</p>
+<h2 id="23柳诒徽">23.柳诒徽<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#23柳诒徽" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>字翼谋，江苏镇江人开“住馆读书”之先例。规定“有志研究国学之士，经学术家之介绍，视本馆空屋容额，由馆长主任认可者，得住管读书”</p>
+<h2 id="24袁同礼">24.袁同礼<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#24袁同礼" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>字守和，河北省徐水人。在美国获得图书馆学士学位回国，先后任广东岭南大学图书馆馆长、北京大学图书馆馆长、国立北平图书馆馆长等职。在主持北平图书馆工作期间，访求书籍不遗余力，礼贤下士，造就学者，使北平图书馆的业务工作一跃而居全国之首</p>
+<h2 id="25刘国钧">25.刘国钧<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#25刘国钧" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>字衡如，出生于江苏南京，先后在金陵大学图书馆、北平图书馆、国立西北图书馆任职或担任馆长。后任教于北京大学图书馆系并担任过系主任。他在图书馆学基础理论、图书分类、图书编目、中国图书史、图书馆工作自动化邻域有着突出的建树</p>
+<h2 id="26王重民">26.王重民<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#26王重民" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>字有三，河北高阳县人。在国立北平图书馆任职期间，曾被派到法国、梵蒂冈、英国等地图书馆收集与研究中国流失海外的图书资料，如敦煌遗书、太平天国文献等。他抄录卡片、拍摄微缩胶卷、做提要或札记，成绩斐然，知名海外。1947年向北大校长胡适建议创办了图书馆学专修科，曾延聘名师后来任教或授课，培养了一批图书馆学专业人才</p>
+<h2 id="27文献采访">27.文献采访<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#27文献采访" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>指的是图书馆的采访工作人员通过对馆藏、读者需求和文献源的调查，有目的、有计划和系统地收集馆藏所需地文献信息资源，以满足读者需求地过程。它包括了文献选择和文献采集两个重要环节</p>
+<h2 id="28书目参考">28.书目参考<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#28书目参考" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>是对读者提出地一些研究性问题，如专题性、专门性研究课题等，通过提供各种形式地专题文献目录索引，供读者查阅所需文献资料，以解决有关课题地咨询。由于它不直接提供具体答案，只提供资料线索，作为解决有关问题时参考，所以称为书目参考或称专题咨询</p>
+<h2 id="29参考咨询">29.参考咨询<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#29参考咨询" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>参考咨询馆员以文献为依据，通过编制资料或利用检索工具等方式，有针对性地为用户揭示、检索和传递知识信息服务工作</p>
+<h2 id="30数字图书馆">30.数字图书馆<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#30数字图书馆" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>能够存取海量数字化信息知识地资料库，包括现有馆藏地数字化资源，新采购地封装型电子出版物、全文数据库，通过网络采购，下载的网络电子出版物及其他免费资源等，以及相关的提供远程服务的信息检索系统</p>
+<h2 id="31个人数字图书馆">31.个人数字图书馆<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#31个人数字图书馆" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>指个人为了读书治学、在自己的计算机上采用免费或基本免费的全文数据库软件，将有关的网上知识信息和自创的数字化知识信息采集、存储，使之成为有组织的知识信息集合，以供个人使用的数字图书馆</p>
+<h2 id="32数字典藏">32.数字典藏<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#32数字典藏" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>是搜集和存储数字化信息以提供长期保存和使用的、具有存储和检索功能的信息资源系统</p>
+<h2 id="33简述图书馆管理的内容-p151">33.简述图书馆管理的内容 P151<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#33简述图书馆管理的内容-p151" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>图书馆系的决策，包括：图书馆发展方针、政策、战略的决策；各项业务工作的决策；人事制度的决定；财务管理决策等</li>
+<li>图书馆计划，包括：国家图书馆事业发展计划，如图书馆事业总体规划、图书馆网的发展计划、专业人员培养、科学研究与协调发展计划等；个体图书馆发展计划，如图书馆的长期与短期计划、整体发展规划与局部发展计划等</li>
+<li>图书馆组织。包括图书馆机构的组织，图书馆人员的配备，图书馆工作岗位的设立等</li>
+<li>图书馆领导，包括图书馆领导者的素质、领导层的结构配置、领导的方式方法、领导的沟通等</li>
+<li>图书馆控制，包括图书馆控制机制的建立、图书馆控制系统的设置、信息反馈的渠道、图书馆目标的确立、绩效评估标准的制定</li>
+<li>图书馆协调，包括图书馆内部的微观协调、图书馆与环境和其他社会系统的宏观协调</li>
+</ol>
+<h2 id="34文献信息资源建设的原则">34.文献信息资源建设的原则<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#34文献信息资源建设的原则" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><a href="#7%E5%9B%BE%E4%B9%A6%E9%A6%86%E4%BA%8B%E4%B8%9A%E5%BB%BA%E8%AE%BE%E5%BA%94%E9%81%B5%E5%BE%AA%E5%93%AA%E4%BA%9B%E5%8E%9F%E5%88%99-p148" class="internal alias">7.图书馆事业建设应遵循哪些原则 P148</a></p>
+<h2 id="35咨询的类型及其作用">35.咨询的类型及其作用<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#35咨询的类型及其作用" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>联合国工业发展组织，将咨询划分为如下类型：战略咨询、工程咨询、管理咨询、技术咨询。它是信息服务业的一项重要内容，通常是分行业进行的。支持该业的主要是国家或社会的情报研究和统计部门。这些部门设有庞大的情报信息收集网络和处理中心，并在计算机的支持下以出版物、公报、媒体及终端向各有关行业提供信息服务。</p>
+<h2 id="36图书馆参考咨询的内容">36.图书馆参考咨询的内容<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#36图书馆参考咨询的内容" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><a href="../信息资源管理笔记/图书馆学#12何为参考咨询参考咨询的基本内容有哪些" class="internal alias" data-slug="信息资源管理笔记/图书馆学">12.何为参考咨询？参考咨询的基本内容有哪些</a></p>
+<h2 id="37图书馆参考咨询的方法">37.图书馆参考咨询的方法<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#37图书馆参考咨询的方法" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>指个人为了读书治学、在自己的计算机上采用免费或基本免费的全文数据库软件，将有关的网上知识信息和自创的数字化知识信息进行采集、存储，使之成为由组织的知识信息集合，以供个人使用的数字图书馆</p>
+<ol>
+<li>书目参考方法。书目参考工作的立足点是建立在对文献信息的加工上。按照文献信息的加工程度，大体上可分为粗加工的书目参考服务、精加工的专题情报服务及综合性的情报研究等三个服务层次。书目参考工作要注意选题的实用性、针对性、预见性和可行性，选材要注意系统性、权威性、客观性、准确性和新颖性，编排要注意科学性、合理性和方面性。</li>
+<li>文献检索方法。文件检索的过程，实际上是一个调查研究、分析问题和解决问题的过程。必须运用唯物辩证法的观点，认真开展调查研究，正确认识事物，仔细分析事物的矛盾性，运用不同的方法解决不同的矛盾，促进事物的转化。通常采用顺查法、逆查法、抽查法、排除法、限定法、扩展法、跟踪法、参引法、综合法等。</li>
+<li>信息检索策略。网络信息检索是一种新型的检索手段和模式，必须遵循一定的检索步骤和运用有关的检索策略与技巧。
+检索步骤一般包括：
+<ol>
+<li>确定检索客体；</li>
+<li>明确检索要求；</li>
+<li>选定检索系统；</li>
+<li>确定检索字段；</li>
+<li>编制检索式：</li>
+<li>执行检索；</li>
+<li>处理检  索结果。</li>
+</ol>
+检索策略与技巧，可考虑：
+<ol>
+<li>采用广度优先检索方法；</li>
+<li>优先考虑权威机构提供的专题息；</li>
+<li>选定检索系统；</li>
+<li>善于选择和运用相关的关键词；</li>
+<li>设法提高查准率；</li>
+<li>设法提高查全率；</li>
+<li>设法提高上网速度等。</li>
+</ol>
+</li>
+</ol>
+<h2 id="38简要回答图书馆参考咨询的特点">38.简要回答图书馆参考咨询的特点<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#38简要回答图书馆参考咨询的特点" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>服务性，参考咨询工作从本质上说是一种知识信息服务。首先，参考咨询工作是属于直接为读者服务的一种工作。其次，参考咨询工作是图书馆传统读者服务工作的一种深化与发展。再次，参考咨询工作的根本和灵魂是服务。参考咨询工作必须做到面向用户，主动奉献</li>
+<li>针对性，主要指参考咨询服务选题的针对性。首先，参考咨询服务的选题，比较注意从图书馆的方针任务出发。其次，参考咨询服务注意针对读者学习、工作与生活的具体需要。再次，参考咨询服务重视个性化服务。尤其在网络环境下，更为注意开展个性化定制服务，这已经成为数字图书馆建设与发展的一个重要趋势</li>
+<li>智力型，参考咨询服务从业务上说属于一种知识密集型劳动。首先，参考咨询工作突出体现了图书馆的情报职能与教育智能。其次，参考咨询工作业务要求较高，尤其是高层次的咨询服务学术性较强。需要有较丰富的知识、经验和技术</li>
+</ol>
+<h2 id="39数字图书馆的技术构成">39.数字图书馆的技术构成<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#39数字图书馆的技术构成" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>知识信息的采集和移植，包括传统的知识信息采集和电子的知识信息采集。其技术手段有扫描、微缩、光学识别（OCR）、语音识别、人工智能，以及文本、图像、音频、视频知识信息的处理</li>
+<li>知识信息组织，包括信息组织技术、压缩技术、海量信息存储技术。目前的数字图书馆的信息组织主要应用有MARC数据、元数据、XML等技术，信息压缩则涉及文本、视频、音频等多种形态和标准，海量信息存储是分布式结构来完成的</li>
+<li>知识信息的检索，包括知识信息以视频、音频、多媒体方式的检索。数字图书馆的文献以全文检索为主，同时还可进行因特网搜索引擎的检索</li>
+<li>知识信息的安全，包括网络安全、信息加密和数字水印等</li>
+</ol>
+<h1 id="信息资源组织">信息资源组织<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#信息资源组织" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="1什么是信息组织信息检索工具有哪些类型-p177">1.什么是信息组织？信息检索工具有哪些类型 P177<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1什么是信息组织信息检索工具有哪些类型-p177" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>信息资源组织也称为信息组织，是根据使用的需要，以文本及各种类型的信息资源为对象，通过对其内容特征等进行分析、选择、处理、序化、并以适当的方式加以提供的活动。</p>
+<p>对于检索工具的类型，可以有多种不同的区分方法。</p>
+<ol>
+<li>按照检索工具的对象和特点，检索工具包括文献目录、索引、机读数据库和网络搜索引擎。</li>
+<li>检索工具按照依据的标识特征，可以分为以信息资源的外部特征为检索依据，提供从资源形式出发进行检索的途径，和以表达信息资源主题内容的标识为依据，提供从内容角度进行检索的途径。</li>
+<li>按照系统中所用的标识是否进行控制，检索工具可以分为受控检索系统与自然语言检索系统两种。</li>
+<li>按照系统中标识组配的特点，检索系统可以分为先组式检索工具和后组式检索工具。</li>
+<li>按照采用的形式，检索工具可分为卡片式、书本式、缩微式、电子方式等类型；</li>
+<li>按照信息资源对象，检索工具可分为图书、期刊、报纸、专利、标准、档案、图像、会议文献等类型。</li>
+</ol>
+<h2 id="2说说信息组织中常见的处理方法-p178">2.说说信息组织中常见的处理方法 P178<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2说说信息组织中常见的处理方法-p178" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>对信息资源的特征进行描述，包括著录或编录，通过记录信息资源的外部特征，供用户识别或确认该资源</li>
+<li>对信息资源的内容进行浓缩，包括编写内容提要或文摘，使用户能迅速了解其内容和特点，供检索查找时选择、判断</li>
+<li>提供检索点，主要是确定检索特征及可检索信息，以便据此对信息资源进行有序化组织</li>
+</ol>
+<h2 id="3什么是信息描述其作用是什么-p179">3.什么是信息描述？其作用是什么 P179<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3什么是信息描述其作用是什么-p179" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>信息资源描述，又称为文献著录，是指根据信息组织和检索的需求，对信息资源的主题内容、形式特征、物质形态进行分析、选择、记录和活动。</p>
+<p>信息描述的作用是：</p>
+<ol>
+<li>用来确认和识别该资源对象</li>
+<li>提供信息资源位置的信息</li>
+<li>通过描述数据中提供检索点，方便用户对资源的检索和利用</li>
+<li>供用户对资源的价值进行判断，决定是否选用</li>
+</ol>
+<h2 id="4文献标引有哪些基本的标引方式分类标引工作一般遵循哪些步骤-p183">4.文献标引有哪些基本的标引方式？分类标引工作一般遵循哪些步骤？ P183<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4文献标引有哪些基本的标引方式分类标引工作一般遵循哪些步骤-p183" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>标引方式：</p>
+<ol>
+<li>整体标引，指概况揭示信息资源基本主题内容的标引，亦称浅标引</li>
+<li>全面标引，指充分揭示信息资源论及其所有符合检索系统要求的主题概念的标引，亦称深标引</li>
+<li>对口标引，指只揭示信息资源中适合本专业需要的主题内容的标引，亦称重点标引</li>
+<li>综合标引，指以集合型信息资源（如丛书、多卷书、论文集等）的整体为单位进行的概况标引</li>
+<li>分析标引，指根据资源中部分片段或集合型信息i资源的构成单元进行的标引</li>
+</ol>
+<p>分类标引步骤：</p>
+<p>​	信息描述的操作程序通常为：查重——描述——标引——复合并输入系统</p>
+<h2 id="5信息资源分类及其作用是什么分类法有哪些基本类型-p185">5.信息资源分类及其作用是什么？分类法有哪些基本类型 P185<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5信息资源分类及其作用是什么分类法有哪些基本类型-p185" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>信息资源分类是指根据信息资源的内容属性和其他特征，将各种类型的资源分门别类地、系统地组织和揭示的方法。分类过程中，用来作为区分根据的属性或特征，称为分类标准。信息资源分类的作用包括：进行资源组织，建立分类检索工具，分类统计，兼容工具。</p>
+<p>按照信息资源分类法的编制方式，通常可分为等级列举式、分面组配式、列举一组配式三种类型。</p>
+<h2 id="6一部完整的分类法一般是由哪些部分组成的说说类目之间的关系及表现形式-p186-p189">6.一部完整的分类法一般是由哪些部分组成的？说说类目之间的关系及表现形式 P186 P189<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6一部完整的分类法一般是由哪些部分组成的说说类目之间的关系及表现形式-p186-p189" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>对分类法的结构组成，国内大致有两种划分方法：一种是按照各部分的功能，将分类法分为类目体系、标记符号、说明与注释、类目索引四个方面；另一种则是按照构成的形式，将其分为编制说明、主表、副表、类目索引等四个部分。</p>
+<p>分类法类目之间的关系：</p>
+<ol>
+<li>从属关系，指类目体系中一个类与其直接区分出来的子类之间的关系</li>
+<li>并列关系，指类目体系中同位类之间构成的关系</li>
+<li>交替关系，指交替类目与相应使用类目之间的形成关系</li>
+<li>相关关系，指类目之间除从属、并列、交替等方式以外的其他联系</li>
+</ol>
+<p>上述类目关系类型中、丛书关系、并列关系反映了类目的纵向联系；交替类、类目参照则是对纵向联系的补充，揭示被类目体系所分散了的横向关系</p>
+<h2 id="7对分类标记有哪些基本要求分类标记的种类编号制度有哪些什么是预留空号法八分法双位制借号法-p187-p188">7.对分类标记有哪些基本要求？分类标记的种类、编号制度有哪些？什么是预留空号法、八分法、双位制、借号法 P187 P188<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7对分类标记有哪些基本要求分类标记的种类编号制度有哪些什么是预留空号法八分法双位制借号法-p187-p188" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>分类标记符合的要求：</p>
+<ol>
+<li>简明性</li>
+<li>表达性</li>
+<li>容纳性</li>
+<li>助记性</li>
+</ol>
+<p>号码种类：</p>
+<ol>
+<li>纯号码，单充号码指一种具有固定次序的符号系统构成的号码，常用的有数字和字母两种</li>
+<li>混合号码，指由两种或两种以上具有固定次序的符号系统构成的号码，通常由数字、字母组合使用</li>
+</ol>
+<p>编号制度：</p>
+<p>按照号码的组成方式，分类标记一般可以分为：</p>
+<ol>
+<li>顺序标记制，按照类目在分类体系中的次序、顺序配予号码，号码只表示类目的次序，不揭示类目的等级或其他关系，这种配号方式称为顺序标记制。顺序标记制便于均衡分配号码，使标记简短，容纳性强，适合文献排架，但不能揭示类目体系的结构</li>
+<li>层累标记制，按照类目划分的等级配置相应位数号码，号码不仅可以反映类目次序，并可以根据标记的位数判断出类目的等级，这种标记方式称为层累标记制</li>
+<li>顺序一层类标记制，结合采用顺序制和层类制的标记方式</li>
+<li>分面标记制，通常以特定的符号或组配方式表示各个主题因素所属的分面，使号码不仅能够揭示类目的分面结构</li>
+</ol>
+<p>标记技术：</p>
+<ol>
+<li>八分法：亦称广九法，即在采用层累数字标记的情况下，当同位类超过10个，不足18个时，前9为以0~8表示，8后面的标记用两位数字表示一次划分，用于解决同为类的号码配置问题。</li>
+<li>双位制：亦称集团表记法，即在采用层累数字标记的情况下，当同位类超过18个时，直接以两位数字表示一次划分，以解决号码的扩充问题。</li>
+<li>借号法：在采用层累数字标记的情况下使用的一种灵活借用上、下位类号码的配号方法。通常在上一级号码较宽裕时，用上级号码标示下级类目，在下级类目超过10个但超过不多时，根据情况，借用9以外的下级号码进行扩充，使号码配置更加灵活。</li>
+<li>预留空号法：指根据科学发展情况和类目设置的可能，在配号时，预先留下一些空号，供类目增补时使用。</li>
+</ol>
+<h2 id="8网络分类法与传统分类法有何区别-p190">8.网络分类法与传统分类法有何区别 P190<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8网络分类法与传统分类法有何区别-p190" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>揭示角度不同，类目的设置特点不同，展开的形式不同，同位类排列方式不同，适用特点不同。</p>
+<h2 id="9主题法的特征是什么主题法有哪些基本类型-p192-p194">9.主题法的特征是什么？主题法有哪些基本类型 P192 P194<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#9主题法的特征是什么主题法有哪些基本类型-p192-p194" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>主题法是指直接以表达主题内容的词语作为检索标识、以字顺为主要检索途径的标引和检索信息资源的方法</p>
+<p>特征：直接选用自然语言中的词语进行标引和检索；以字顺作为主要检索途径，字顺方式始终是它的主要排检依据；以特定的事物、问题、现象，即主题为中心集中信息资源；通过在主题词下设置用、代、属、分、参等多种参考系统等方式解释主题词之间的关系。</p>
+<p>类型：标题法、元词法、叙词法、关系词法、受控主题法与非控主题法</p>
+<h2 id="10一部完整的叙词表至少应该包括哪两大部分每个大部分有包含哪些内容叙词表中叙词之间主要有哪三种关系叙词表的编制应包括哪几个步骤-p195-p197-p199">10.一部完整的叙词表至少应该包括哪两大部分？每个大部分有包含哪些内容？叙词表中叙词之间主要有哪三种关系？叙词表的编制应包括哪几个步骤 P195 P197 P199<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#10一部完整的叙词表至少应该包括哪两大部分每个大部分有包含哪些内容叙词表中叙词之间主要有哪三种关系叙词表的编制应包括哪几个步骤-p195-p197-p199" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>一部完整的叙词表一般应当至少包括字顺显示、系统显示两部分。</p>
+<p>字顺显示包括：</p>
+<ol>
+<li>字顺表</li>
+<li>专有词表</li>
+<li>双语种索引</li>
+<li>字顺索引和入口词表</li>
+</ol>
+<p>系统显示包括：</p>
+<ol>
+<li>范畴索引</li>
+<li>词组索引</li>
+<li>轮排索引</li>
+<li>分类主题一体化词表</li>
+<li>图形显示</li>
+</ol>
+<p>叙词表中叙词之间主要有三种关系：同等关系、等级关系和相关关系</p>
+<p>叙词表的编制一般包括总体设计、选词、对词汇进行处理、编表、审核和试标引出版等步骤</p>
+<h2 id="11概要说明范畴索引和词族索引的作用和编制方法-p196">11.概要说明范畴索引和词族索引的作用和编制方法 P196<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#11概要说明范畴索引和词族索引的作用和编制方法-p196" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>范畴索引是一种按照词汇所属学科或专业范畴编制的概略分类系统，是从分类角度查找叙词的辅助工具，范畴索引的作用：</p>
+<ol>
+<li>便于从分类角度查找与某一范畴有关的叙词</li>
+<li>可以作为概略分类的依据</li>
+<li>是编表选词、处理词间关系的工具</li>
+</ol>
+<p>词族，是指一组具有属分关系的叙词集合。词族索引是一种以词族为款目单元，按照款目词的字顺排列，可以从等级关系的角度查找叙词的索引，词族索引的作用：</p>
+<ol>
+<li>可以从词族出发查词</li>
+<li>可在计算机检索系统中，自动进行上位词登录</li>
+<li>可通过等级关系限定词义</li>
+</ol>
+<h2 id="12什么是轮排索引轮排索引有哪些作用-p197">12.什么是轮排索引？轮排索引有哪些作用 P197<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#12什么是轮排索引轮排索引有哪些作用-p197" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>轮排索引，亦称轮排表，是将词表中的叙词按词素的字顺排列，是含有同一词素的叙词集中显示与一处的词汇表，是一种从词素的角度查找叙词的辅助工具。作用是：</p>
+<ol>
+<li>可以从词素角度出发对叙词进行查找</li>
+<li>利用按词素集中的叙词的特点，帮助使用者选择最合适使用的叙词</li>
+<li>依据其字面成族的特点，进行词间关系处理</li>
+</ol>
+<h2 id="13主题标引时标题确定一般应主意哪些问题简单说说主题标引中的查词规则-p200">13.主题标引时标题确定一般应主意哪些问题。简单说说主题标引中的查词规则 P200<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#13主题标引时标题确定一般应主意哪些问题简单说说主题标引中的查词规则-p200" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>注意问题：</p>
+<ol>
+<li>做好主标题的选择</li>
+<li>对叙词的引用次序作出规定</li>
+<li>规定轮排模式</li>
+</ol>
+<p>查词规则：</p>
+<ol>
+<li>采用正式叙词标引</li>
+<li>采用专指叙词</li>
+<li>组配标引</li>
+<li>上位叙词标引</li>
+<li>靠词标引</li>
+<li>增词标引</li>
+<li>自由词标引</li>
+<li>注意标引深度的一致性</li>
+</ol>
+<h2 id="14什么是后控词表后控词表有何特点-p202">14.什么是后控词表？后控词表有何特点 P202<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#14什么是后控词表后控词表有何特点-p202" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>后控词表是一种在检索阶段进行控制的词表，这种词表不像传统的词控制表那样在标引阶段对标识实施控制，而是在检索阶段通过同义控制和相关词推荐方式提供检索帮助。</p>
+<p>特点：</p>
+<ol>
+<li>不承担标引功能，只用于检索控制，词汇控制不如先控词表严格</li>
+<li>入口词丰富</li>
+<li>动态性强</li>
+<li>有较强的灵活性和自由度</li>
+<li>具有面向文献和用户的特点</li>
+<li>词间关系不同于传统词表</li>
+</ol>
+<h2 id="15信息资源描述">15.信息资源描述<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#15信息资源描述" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>信息资源描述，又称为文献著录，是指根据信息组织和检索的需要，对信息资源的内容、特征进行分析、选择、记录的活动。信息描述的结果使描述记录，以及元数据，可以用来代表信息资源组织检索系统</p>
+<h2 id="16检索点">16.检索点<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#16检索点" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>检索点是指信息资源所使用的提名、责任者、分类号、主题词等各种提供检索使用的数据</p>
+<h2 id="17网络分类法">17.网络分类法<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#17网络分类法" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>网络分类法放弃传统分类法以学科为中心的特点，采用以主题为中心、或以主题结合学科的方式建立分类体系</p>
+<h2 id="18叙词">18.叙词<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#18叙词" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>国内亦称主题词，是经过规范化处理的，以基本概念为基础的表达文献主题的词和词组</p>
+<h2 id="19信息资源分类法的类型">19.信息资源分类法的类型<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#19信息资源分类法的类型" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>按照信息资源分类法的编制方式，通常可以分为等级列举式、分面组配式、列举—组配式三种类型</p>
+<p>等级列举式：一种将所有类目组织成一个等级系统，并且采用尽量列举的方式编制的分类法。它是目前使用最普遍的分类法形式。比较著名的有：美国的《杜威十进制分类法》（DDC），我国的《中图法》
+分面组配式：是一种依据分析兼综合的原则编制的分类法类型。这种分类法在类表中按照范畴列出各种基本概念，并分别配予相应号码；使用时，先分析标引的主题，根据主题分析的结果，通过类目的组配表达文献主题。典型的分面组配式分类法有印度阮冈纳赞创制的《冒号分类法》（CC）
+列举—组配式：式上述两种编制方式的结合，是一种在详尽类表的基础上，广泛采用各种组配方式的分类法。例如：《国际十进制分类法》（UDC）</p>
+<p>文献分类法还可以根据其涉及的学科领域范围的不同，分为综合性分类法、专业分类法；根据类分文献的规模，分为大型分类法、中小型分类法；根据其适用的文献类型，分为图书分类法、文献分类法、标准分类法、专利分类法、网络资源分类法等</p>
+<h1 id="目录学-p204">目录学 P204<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#目录学-p204" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>目录学的基本概念分为三类</p>
+<ol>
+<li>与书目有关的概念</li>
+<li>与书目情报有关的概念</li>
+<li>与目录学有关的概念</li>
+</ol>
+<h2 id="1什么是书目书目有哪些基本类型-p205">1.什么是书目？书目有哪些基本类型 P205<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1什么是书目书目有哪些基本类型-p205" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>书目又称目录，他是著录一批相关文献，按照一定次序编排组织而成的一种揭示和报道文献信息的工具。</p>
+<p>类型：</p>
+<ol>
+<li>国家书目：是全面登记与报道一个国家近期或往昔出版物的文献总目</li>
+<li>联合目录：是揭示和报导若干文献收藏单位的全部或部分藏书的目录</li>
+<li>地方文献书目：是全面揭示和报道某一地区的自然、历史、社会文献的书目</li>
+<li>个人著述书目：是记载作者的著述或兼收他人评价作者及其著述的文献书目</li>
+<li>推荐书目：针对特定的读者，采用特定的标准选择图书推荐给读者的书目</li>
+</ol>
+<h2 id="2国内外学者对目录学的研究对象有哪些不同的论点-p211-p212">2.国内外学者对目录学的研究对象有哪些不同的论点 P211 P212<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2国内外学者对目录学的研究对象有哪些不同的论点-p211-p212" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>图书说：认为目录学是研究图书的一门学科</li>
+<li>目录说：主张目录学的研究对象是书目</li>
+<li>图书和目录说：认为当代目录学的任务是辩章学术，考镜源流，推荐好书，指导阅读；研究对象首先是图书，其次是书刊目录</li>
+<li>关系说：有两种说法：①认为目录学的研究对象是研究社会生活中记录图书与利用图书的关系②认为目录学是研究认识与揭示图书的规律的科学，认识图书和揭示图书的活动规律就是目录学研究的对象</li>
+<li>矛盾说：认为目录学是研究书目工作形成和发展的一般规律的科学。</li>
+</ol>
+<h2 id="3谈谈我国古代目录学发展的成就与特点-p215">3.谈谈我国古代目录学发展的成就与特点 P215<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3谈谈我国古代目录学发展的成就与特点-p215" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>先秦——两汉时期的目录学：</p>
+<ol>
+<li>开创了官修书目的先例</li>
+<li>为我国目录学的形成奠定了基础</li>
+<li>创立了“七分法”的书目分类体系</li>
+<li>创立了叙录体提要等揭示文献的方法</li>
+</ol>
+<p>魏晋南北朝时期的目录学：</p>
+<ol>
+<li>书目数量增加，类型增加，如佛经目录、私人书目出现</li>
+<li>对书目的作用有了更充分的认识，订正闻见，炳然区分</li>
+<li>对简明登记书目和提要书目两种体例进行了讨论</li>
+<li>在书目方法方面，创立了“立传”、“明宗”、“总经序、记存亡、设附录、撰缘记”等多种方法</li>
+<li>在书目分类方面，出现了六分发和四步法的竞争</li>
+<li>“流略”一词汇出现和“簙录”类的确立，说明目录学作为一门独立的知识系统已为人们所承认、重视</li>
+</ol>
+<p>隋唐时期的目录学：</p>
+<ol>
+<li>推荐书目的出现</li>
+</ol>
+<p>两宋时期目录学：</p>
+<ol>
+<li>专科目录的繁荣，索引的产生，目录著作的考证</li>
+</ol>
+<p>元明时期的目录学：</p>
+<ol>
+<li>创立了新的编排分类体系</li>
+</ol>
+<p>清代目录学：</p>
+<ol>
+<li>使用目录学成为“显学”</li>
+</ol>
+<h2 id="4请说说文献揭示的基本原则与方法-p219">4.请说说文献揭示的基本原则与方法 P219<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4请说说文献揭示的基本原则与方法-p219" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>首先注意揭示文献的外部特征，但要以揭示文献的内容特征为主。注意揭示的广度和深度以及文献的社会影响。</p>
+<p>文献揭示的基本方法：</p>
+<ol>
+<li>著录法：著录是描述与记录文献题名、作者、版本等外部特征的方法。它是确认某一文献的基本依据，也是为获得文献，提供检索的初步途径。著录的要求是准确、完备、一致</li>
+<li>提要法：提要是简要揭示文献题意，介绍作者生平、学术思想、揭示或评介文献内容的方法。提要有助于了解作者生平事迹与学术渊源；也方便读者熟悉与利用文献，获得读书的门径。它是被广泛应用于图书的编辑、出版、发行、宣传，书目编制与文献编目、古籍整理、读书治学与学科研究中</li>
+<li>文摘法：摘要是以简要准确、不加任何评论的文字摘述文献主要内容的方法</li>
+<li>索引法：是揭示提名及所包含的专名，按照一定方法编排，以供查考它们在文献中的位置的方法</li>
+<li>综述法：是搜集多种同一主题内容文献，进行分析、归纳、总结与系统叙述的方法</li>
+<li>文献评价法：是对一篇文章或者一部著作的介绍与评论的方法</li>
+</ol>
+<h2 id="5简述书目的编纂方法">5.简述书目的编纂方法<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5简述书目的编纂方法" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>书目编纂的整个过程就是综合的方法和分析的方法交替使用的过程，表现为综合——分析——综合的关系。编纂一部大型书目大体上要经过准备、分析、综合、结束等四个基本阶段。</p>
+<h2 id="6简述文摘的特点类型和编纂方法-p222">6.简述文摘的特点、类型和编纂方法 P222<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6简述文摘的特点类型和编纂方法-p222" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>文摘的特点：</p>
+<ol>
+<li>替代性：文摘是对原文的一种替代</li>
+<li>模拟性：文摘是原文的一种情报模型</li>
+<li>转换性：包括语种的转换，表达方式的转换，等等。</li>
+</ol>
+<p>类型：</p>
+<ol>
+<li>从编撰目的和职能来看，大体分为普及性文摘和情报性文摘</li>
+<li>根据文摘编者又可以分为作者文摘、学科权限文摘和专职文摘员文摘</li>
+<li>根据文摘编写形式可分为文章式文摘和电报式文摘</li>
+<li>根据文摘刊登的地方可分为同址文摘和非同址文摘</li>
+<li>根据文摘的出版形式可分为单券式文摘和期刊式文摘</li>
+</ol>
+<p>编纂方法：</p>
+<ol>
+<li>确定选题和工作计划</li>
+<li>文献的搜集与选择</li>
+<li>摘要编写与款目著录</li>
+</ol>
+<h2 id="7索引有哪些类型索引款目一般应由哪些项目组成一部完整的索引通常应满足哪些条件-p228">7.索引有哪些类型？索引款目一般应由哪些项目组成？一部完整的索引通常应满足哪些条件 P228<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7索引有哪些类型索引款目一般应由哪些项目组成一部完整的索引通常应满足哪些条件-p228" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>索引的类型：</p>
+<ol>
+<li>篇目索引</li>
+<li>语词索引</li>
+<li>主题索引</li>
+<li>著者索引</li>
+<li>专用索引</li>
+</ol>
+<p>结构组成：目次、序言、正文、辅助索引、附录</p>
+<p>满足条件：</p>
+<ol>
+<li>必须有众多索引款目组合而成</li>
+<li>由标目、修饰语和参照项三者组成款目。目标和参照项不可省略</li>
+<li>款目必须按照一定次序组成</li>
+<li>必须通过一定的方式显示标目之间的关系，而不是简单的排列</li>
+</ol>
+<h2 id="8什么是书目情报服务书目情报服务一般包括哪些内容-p231">8.什么是书目情报服务？书目情报服务一般包括哪些内容 P231<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8什么是书目情报服务书目情报服务一般包括哪些内容-p231" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>广义的书目情报服务包括书目文献的编制、传递、利用等过程。侠义的书目情报服务，则仅指书目情报检索与利用服务。</p>
+<ol>
+<li>书目情报源建设</li>
+<li>参考咨询服务</li>
+<li>大众书目情报服务</li>
+<li>定题服务</li>
+<li>情报分析与研究服务</li>
+<li>读者书目情报意识的培养</li>
+<li>书目情报理论总结</li>
+</ol>
+<h2 id="9书目情报服务的形式和策略各有哪些-p232">9.书目情报服务的形式和策略各有哪些 P232<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#9书目情报服务的形式和策略各有哪些-p232" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>研究读者的提问</li>
+<li>研究提问的实质目的</li>
+<li>检索工具的选择</li>
+<li>确定检索方法</li>
+<li>检索词的选择</li>
+<li>检索式的编写</li>
+<li>检索结果的提供</li>
+</ol>
+<h2 id="10目录学研究的内容-p213">10.目录学研究的内容 P213<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#10目录学研究的内容-p213" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>关于目录学基础理论的研究</li>
+<li>关于文献的研究</li>
+<li>关于书目、索引类型及其编纂法的研究</li>
+<li>关于读者书目情报需求特点与书目情报服务的研究</li>
+<li>关于书目工作组织与管理的研究</li>
+<li>关于国内外目录学的研究</li>
+<li>关于中国目录学遗产的研究</li>
+<li>关于目录学方法的研究</li>
+</ol>
+<h2 id="11书目-p204">11.书目 P204<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#11书目-p204" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>数目又称目录，它是著录一批相关文献，按照一定次序编排组织而成的一种揭示和报道文献信息的工具。</p>
+<h2 id="12国家书目-p205">12.国家书目 P205<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#12国家书目-p205" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>国家书目是全面登记与报道一个国家近期或往昔出版物的文献总目。它是一个国家全部出版物现状与历史的记录。</p>
+<h2 id="13联合目录-p207">13.联合目录 P207<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#13联合目录-p207" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>联合目录是揭示和报道若干文献收藏单位的全部或部分藏书的目录。联合目录的特点是集中报道多馆藏书特点及分布情况，指明文献的收藏处所。</p>
+<h2 id="14推荐书目-p208">14.推荐书目 P208<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#14推荐书目-p208" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>针对特定的读者、采用特定的标准选择图书推荐给读者的书目。包括选读书目、导读书目等。推荐书目的特点是选题有明确的目的，有特定的读者对象，精选适合对象水平的图书，指出阅读方法，书目编排与图书揭示体现导读的精神。</p>
+<h2 id="15索引-p220">15.索引 P220<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#15索引-p220" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>索引是记录和指引文献中有关事项及单元知识的位置出处，按一定方法组织起来的检索工具。索引有多种称谓，如通检、引得、题录等。不同的称谓反映了不同历史时期人们对索引的认识。根据索引标目的性质划分，可分为：篇目索引、语词索 引、主题索引、 著者索引、专用索引、如分子式索引、化学物质索引等。</p>
+<h2 id="16文献揭示的基本方法">16.文献揭示的基本方法<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#16文献揭示的基本方法" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>[[信息资源管理笔记/图书馆学#目录学#4.请说说文献揭示的基本原则与方法]]</p>
+<h2 id="17目录学的主要分支学科-p213">17.目录学的主要分支学科 P213<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#17目录学的主要分支学科-p213" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>专科目录学，专科文献目录学是从特定读者群的需要出发，揭示与报导某一专门学科文献的状况的学科。 如：马克思列宁主义经典著作目录学、文学文献目录学、历史文献目录学、社会科学文献目录学、自然科学文献目录学、技术科学文献目录学等。</li>
+<li>书目控制理论， “书目控制”一词是由美国芝加哥大学的伊根和谢拉于1949年在其《书目控制论》一文中首先提出的。书目控制论研究利用控制论原理，对书目系统进行调节与控制等问题。主要目标是通过国家书目控制和全球文献控制实现全球文献资源共享。</li>
+<li>计量目录学，计量目录学是数学和统计学方法引进目录学以后产生的学科分支。它利用统计学方法来计量文献，目的在于用定量描述各门学科的书目信息特征过程与形式，以及它们的发展趋势，得出规律，以便对文献的累积与利用之间的关系进行量化分析。包括引证规律、文献增长规律、文献分布规律的研究等方面。</li>
+<li>比较目录学，比较方法在目录学中的应用产生了比较目录学。该分支学科主要研究不同文化传统下的书目工作体制、目录学理论的差异，并解释这些差异，寻找目录学共同的发展规律的一门学科。</li>
+</ol>
+<h1 id="文献学-p234">文献学 P234<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#文献学-p234" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>文献是特定知识内容的记录，是具有一定物质形态的载体</p>
+<h2 id="1试用自己的语言表述图书在人类历史长河中的作用以及图书文化的要以-p259">1.试用自己的语言，表述图书在人类历史长河中的作用，以及图书文化的要以 P259<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1试用自己的语言表述图书在人类历史长河中的作用以及图书文化的要以-p259" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>图书是人类使用文字、图画或符号，记录知识或表达思想的著述载体。</p>
+<h2 id="2概述雕版印刷和活字印刷-p261">2.概述雕版印刷和活字印刷 P261<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2概述雕版印刷和活字印刷-p261" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>雕版印刷术是我国传统的“四大发明”之一。中国是世界上最早使用雕版印刷术的国家，时间可以推到唐朝初年，此后雕版印刷业逐渐发展，在宋元时期已经达到顶峰。</p>
+<p>活字印刷术技术也是我国古人的发明。据记载，已知四种以上的印书活字，是中国人首先发明的。它们是：泥活字、木活字、铜活字、铅活字。</p>
+<h2 id="3图书装帧的本质属性何在需要遵循的基本原则是什么-p262">3.图书装帧的本质属性何在？需要遵循的基本原则是什么 P262<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3图书装帧的本质属性何在需要遵循的基本原则是什么-p262" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>装帧之“帧”，一般指画幅，后用作专指画幅的量词单位。</p>
+<p>图书装帧要遵循四项原则：</p>
+<ol>
+<li>要体现思想性、艺术性和科学性的和谐统一</li>
+<li>要具有可欣赏性的艺术特点</li>
+<li>要坚持可行性与实用性的结合</li>
+<li>要强调特色的连贯性和风格多样性</li>
+</ol>
+<h2 id="4区别阅和读并给予合理的解释和适当的发挥">4.区别“阅”和“读”，并给予合理的解释和适当的发挥<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4区别阅和读并给予合理的解释和适当的发挥" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>阅的本义是逐一点看，意思是用眼睛一字不漏的仔细观看。</p>
+<p>读的本义是照文字念、诵，通过用嘴出声念诵以达到对与字句意义的理解，如宣读、朗读、诵读。</p>
+<p>广义的阅读，含义及其广泛，它包括了从不知到渐知、从泛知到追求深知的全过程。阅读是主体与客体相互作用的过程，是阅读主体实践活动与精神活动的一种体现。</p>
+<p>侠义的阅读，涉及阅读客体，阅读主体和阅读本体，以及阅读学研究专题等内容。</p>
+<h2 id="5文献资源">5.文献资源<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5文献资源" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>文献资源是相对于天然资源的一种社会之力资源，是物化了的知识财富，是人们迄今为止收集积累贮存下来的文献资料的总和。具有再生性、积累性、可建性、冗余性、共享性和价值潜在性特点</p>
+<h2 id="6天一阁">6.天一阁<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6天一阁" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>我国现存最古的藏书楼，在今浙江宁波。明代范钦建于嘉庆年间。原藏书七万余券，后多散佚。</p>
+<h2 id="7四库全书">7.《四库全书》<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7四库全书" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>古语”盛世修典“，《四库全书》大型丛书就是在清代乾隆盛世修成的一大文化经籍宝藏。从乾隆三十八年乾隆帝采安徽学政朱筠上奏，决定开设四库馆开始，到乾隆四十七年，第一部《四库全书》编成，再到乾隆五十二年，先后陆续完成七份副本的誊录，共历时15年，全书共收书3460余种，79337卷，每部装订成36300余册。可谓煌煌巨制，卷帙浩繁，汇集了从先秦到清前期的历朝历代的主要典籍，被誉为”千古巨制，文化渊薮“</p>
+<h2 id="8校勘">8.校勘<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8校勘" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>用同一部书的不同版本和有关资料加以比较，考订文字的异同，目的在于确定原文的真相</p>
+<h2 id="9版本">9.版本<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#9版本" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>是基本上根据同样的输入信息制作并且由同一个机构或组织机构或个人发行的一种资源的所有副本。对于古旧单行资源，从基本上是同样的版心在任何时候印刷出来的一种资源的所有副本</p>
+<h2 id="10简牍">10.简牍<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#10简牍" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>简牍是对我国古代遗存下来的写有文字的竹简与木牍的概称。用竹片写的书称“简策”，用木版（也作“板”）写的叫“版牍”。在纸发明以前，简牍是我国书籍的最主要形式， 对后世书籍制度产生了深远的影响。</p>
+<h2 id="11书林清话叶德辉">11.《书林清话》叶德辉<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#11书林清话叶德辉" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>《书林清话》叶德辉著，为我国第一部系统的版本目录学专著。《书林清话》为读者提供关于古代雕版书籍的各项专门知识，诸如刻书源流、版本名称、校勘掌故、历代副书家历史等。</p>
+<h2 id="12藏书">12.藏书<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#12藏书" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>是对历代以图书为主的文献进行搜集、典藏、整理、研究利用乃至刊刻传播的文化活动。</p>
+<h2 id="13善本">13.善本<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#13善本" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>最早是指校勘严密，刻印精美的古籍，后含义渐广，包括刻印较早、流传较少的各类古籍。实际上，真正的善本仍应主要着眼于书的内容，着眼于古籍的科学研究价值和历史文物价值。具有历史文物性、学术资料性、艺术代表性。</p>
+<h2 id="14杜定友">14.杜定友<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#14杜定友" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>杜定友（1898-1967）是广东南海人，出生在上海。1921于菲律宾大学图书馆学专业毕业后回国，在上海、广州两地从事图书馆事业长 达 50 年，先后担任过广东省立图书馆馆长，南阳大学图书馆主任、中山大学图书馆主任等职。他在图书馆基础理论、图书分类学、 图书目录学、汉字排检法、图书馆理论、图书馆建筑、地方文献等领域皆有突出理论建树。</p>
+<h2 id="15文献揭示的基本方法">15.文献揭示的基本方法<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#15文献揭示的基本方法" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>著录法。著录是描述与记录文献题名、作者、版本等外部特征的方法。它是确认某一文献的基本依据，也是为获得某一文献的基本依据，也是为获得文献，提供检索的初步途径。著录的要求是准确、完备、一致。</li>
+<li>提要法。提要是简要解释文献题意，介绍作者生平、学术思想，揭示或评介文献内容的方法。提高有助于了解作者生平事迹与学术渊源；也方便读者熟悉和利用文献，获得读书的门径。它被广泛应用于图书的编辑、出版、发行、宣传， 书目编制与文献编目、古籍整理、读书治学与科学研究中。</li>
+<li>文摘法。摘要是以简要准确、不加任何平衡的文字摘述文献主要内容的方法。</li>
+<li>索引法。索引是揭示题名即所包含的专名，按一定方法编排，以供查考它们在文献中位置的方法。</li>
+<li>综述法。综述是搜集多种同一主题内容文献，进行分析、归纳、总结与系统叙述的方法。</li>
+<li>文献评价法。文献评价是对一篇文章或一部著作的介绍与评论的方法。</li>
+</ol>
+<h2 id="16史料的内容">16.史料的内容<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#16史料的内容" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>文字史料。指以往形成的书籍和文书等一切历史性文字材料，它们常常被概称为“历史文献”。</li>
+<li>实物史料。指历代古董、日用品、生产资料、服饰器物、建筑和古迹依存等，它们在历史研究工作中有着十分重要的作用。</li>
+<li>口传史料。指民间长期口语相传的史诗、传说、民谚、民谣、民歌，以及现代的口述史料等。
+记录着特定历史过程中的事实和现象，是一切史料的本质特点。</li>
+</ol>
+<h2 id="17文渊阁四库全书的流传于收藏">17.文渊阁《四库全书》的流传于收藏<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#17文渊阁四库全书的流传于收藏" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>《四库全书》：古语日“盛世修典”，《四库全书》大型丛书就是在清代乾隆盛世修成的一大文化经籍宝藏。从乾隆三十八年（1773）乾隆帝采纳安徽学
+政朱筠上奏，决定开设四库馆开始，到乾隆四十七年（1782）第一部《四库全书》编成，再到乾隆五十二年（1787）先后陆续完成七份副本的誉录，共
+历时15年，全书共收书3460余种（或日3503种），79337卷，每部装订成36300余册。可谓煌煌巨制，卷帙浩繁，汇集了从先秦到清前期的历朝历代的
+主要典籍，被誉为“千古巨制，文化渊鼓”。《四库全书》成书后，乾隆帝对其收存贮藏十分重视。他决定仿效“天一阁”规制，专门修建馆阁以收藏之。
+建成承德避暑山庄的文津阁、圆明园的文源阁、故宫的文渊阁、盛京沈阳的文溯阁，文津阁、文渊阁、文源阁、文溯阁史称“内廷四阁全书”或“北四阁”，
+主要是供皇帝阅读备览服务的。后来考虑到天下文人学子读书的需要，又命将陆续抄缮的三套《四库全书》分别送藏于扬州文汇阁、镇江文宗阁和杭州
+文澜阁，史称“江浙三阁全书”或“南三阁”。《四库全书总目》：由清代纪的等编寨，为我国古代最巨大的官修图书目录。四库全书的馆臣们，对眷录入
+库的3400余种图书（称“著录书”）和抄存卷目的6700余种图书（称“存目书”）全部写出提要，这就是《四库全书总目提要》，或简称《四库总目》。
+《四库提要辨证》余嘉锡以毕生精力研究《四库全书总目》总结而成的成果。其目录学理论著作《目录学发微》，系统地阐述了目录学的意义、功用、源
+流及书目的体例、书目分类等问题，在中国目录学史上有着重要地位。</p>
+<h2 id="18历史文献整理目的与方法">18.历史文献整理目的与方法<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#18历史文献整理目的与方法" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>文献整理的终极目的，是为了确定历史文献原文的真实可靠程度，以便于人们理解和使用，因此构成了历史文献整理的三个不可分割的环节：
+（1）历史文献的实证。即通过辨伪、版本、校勘、辑佚等手段，尽量恢复历史文献的原始面貌，考据原文内容的真实性，使之成为可靠可信的材料。
+（2）历史文献的解释。在上述基础上，通过标点注释、注释、翻译等手段，解释或解读被认为真实的历史文献，以便于人们更加准确地理解原文、把握作者的本意。
+（3）历史文献整序。书目和索引，是整理者对历史文献中蕴涵的知识元素进行开发和组织的一种手段，经过这种整序，可以让历史文献既方便而又快捷地为人们提供服务。</p>
+<h2 id="1920世纪80年代中国历史文献建立的主要原因">19.20世纪80年代中国历史文献建立的主要原因<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1920世纪80年代中国历史文献建立的主要原因" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>中国历史文献学，作为一个学科的理论探讨是从20世纪80年代开始的。历史文献研究的悠久传统与丰硕成果，很显然，它为历史文献学的形成提供了宝贵的遗产。</li>
+<li>历史文献学的教学需要，也推动了历史文献学的建立。中国历史文献学作为一门学科，它首先是为大学中一门课程来建设的，这门课是在“中国历史文选”或“中国历史要籍介绍及选读”的基础上建立起来的。</li>
+<li>文献学的逐步形成，对历史文献学的建立有重要的影响作用，可以说，历史文献学是历史学的基础科学，同时也是文献学的一个重要分支学科。</li>
+</ol>
+<h2 id="12历史文献学的研究内容">12.历史文献学的研究内容<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#12历史文献学的研究内容" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>历史文献研究。显而易见，历史文献学研究的主要对象是历史文献。也可以这样说， 历史文献研究的缺失，历史文献学就失去了它存在的基础。如历史 文献的编纂、价值、类别、发展历史、数量、体裁及民族历史文献等一系列问题。</li>
+<li>历史文献整理方法的研究。文献目录（分类）、版本、校勘、考证、辨伪、辑佚、类纂、标点、注释、翻译，这些传统整理文献的方法与手段可以运用 在历史文献的整理上，但我们不能认为它们就是历史文献学的分支学科。历史文献学需要对 这些方法与手段进行一全新的认识，并随着时代的发展，对历史文献整理手段的现代化应有必要的关注。</li>
+<li>历史文献整理成就的总结，这方面的研究也可以看成是历史文献学史的回顾。</li>
+<li>历史文献学的分支学科。正史学、通鉴学、历史档案学等，应成为中国历史文献学的分支学科。随着研究的深入，分支学科也会逐渐增多。 中国历史文献学，作为高等院校中一门专业基础课，为相关本科学生提供必要的基础知识； 同时它又作为一个博士学位授权点，其建设的好坏，关切到本学科高深人才的培养。</li>
+</ol>
+<h1 id="论述题">论述题<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#论述题" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="1试述数据信息知识文献之间的关系p138">1.试述数据、信息、知识、文献之间的关系。(P138)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1试述数据信息知识文献之间的关系p138" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><a href="../信息资源管理笔记/图书馆学#1试述数据信息知识文献之间的关系-p138" class="internal alias" data-slug="信息资源管理笔记/图书馆学">1.试述数据、信息、知识、文献之间的关系 (P138)</a></p>
+<h2 id="2图书馆管理的内容-p151">2.图书馆管理的内容 (P151)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2图书馆管理的内容-p151" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><a href="../信息资源管理笔记/图书馆学#33简述图书馆管理的内容-p151" class="internal alias" data-slug="信息资源管理笔记/图书馆学">33.简述图书馆管理的内容 P151</a></p>
+<h2 id="3文献信息资源建设的原则-p155">3.文献信息资源建设的原则 (P155)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3文献信息资源建设的原则-p155" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><a href="../信息资源管理笔记/图书馆学#34文献信息资源建设的原则" class="internal alias" data-slug="信息资源管理笔记/图书馆学">34.文献信息资源建设的原则</a></p>
+<h2 id="4咨询的类型及其作用-p159">4.咨询的类型及其作用 (P159)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4咨询的类型及其作用-p159" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><a href="../信息资源管理笔记/图书馆学#35咨询的类型及其作用" class="internal alias" data-slug="信息资源管理笔记/图书馆学">35.咨询的类型及其作用</a></p>
+<h2 id="5图书馆参考咨询的内容-p159">5.图书馆参考咨询的内容 (P159)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5图书馆参考咨询的内容-p159" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><a href="../信息资源管理笔记/图书馆学#36图书馆参考咨询的内容" class="internal alias" data-slug="信息资源管理笔记/图书馆学">36.图书馆参考咨询的内容</a></p>
+<h2 id="6图书馆参考咨询的方法-p166">6.图书馆参考咨询的方法 (P166)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6图书馆参考咨询的方法-p166" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><a href="../信息资源管理笔记/图书馆学#14书目参考方法主要有哪些-p166" class="internal alias" data-slug="信息资源管理笔记/图书馆学">14.书目参考方法主要有哪些 P166</a></p>
+<h2 id="7分类法类目关系-p189">7.分类法类目关系 (P189)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7分类法类目关系-p189" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><a href="../信息资源管理笔记/图书馆学#6一部完整的分类法一般是由哪些部分组成的说说类目之间的关系及表现形式-p186-p189" class="internal alias" data-slug="信息资源管理笔记/图书馆学">6.一部完整的分类法一般是由哪些部分组成的？说说类目之间的关系及表现形式 P186 P189</a></p>
+<h2 id="8目录学的主要分支学科-p213">8.目录学的主要分支学科 (P213)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8目录学的主要分支学科-p213" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><a href="../信息资源管理笔记/图书馆学#17目录学的主要分支学科-p213" class="internal alias" data-slug="信息资源管理笔记/图书馆学">17.目录学的主要分支学科 P213</a></p>
+<h2 id="9文献的属性及基本要素-p234">9.文献的属性及基本要素 (P234)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#9文献的属性及基本要素-p234" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>作为中国国家标准颁布的《文献著录总则》将文献定义为“记录有知识的一切载体”，从而强调了文献的两个基本属性：①是特定知识内容的“记录”，②是具有一定物质形态的“载体”。文献的构成要素：</p>
+<ol>
+<li>记录形式，传统的观点主要认为是不同语种的不同文字，如汉字、英文等；或者是同一语种的不同形态，如汉字的文言和白话之别。现代的观点则认为，把知识记录在载体上的形式还有图画、符号、声频、视频、电子刻录等现代手段。</li>
+<li>载体形式，我国历代使用的主要知识载体，依次有龟甲、兽骨、竹简、木牍、缣帛、纸张。古代文明国家如古巴比伦使用过泥版、古印度使用过标榈叶片、古埃及使用过纸莎草纸和羊皮等。中国的造纸术发明并传播到世界各地以后，世界各国都先后采用了价廉物美的纸张。如今，胶卷、胶片、磁带和光盘等新型文献载体开始广泛运用。</li>
+<li>写印形式，在印刷术发明之前，文献主要是以手写手抄的方式传录复制。中国印刷术发明以后，主要是以雕版印刷文献为主流，活字印刷文献和写抄文献只是一脉单传。近代西方印刷技术传入我国以后，中国传统的手工印刷业逐渐被石印、影印、铅印、扫描和摄录等机器印刷方式取代。</li>
+<li>装帧形式，我国文献的装帧形式主要有卷轴装、旋风装、经折装、蝴蝶装、包背装、线装、平装和精装等。雕版印刷、活字印刷文献和写抄文献，用的是质地绵软的传统中国纸，单面写印，折叶装订成为线装本。近代西方机器印刷技术传入后，纸张和装帧相应发生了变革，能够适应机器双面印刷的西式纸张“洋纸”应运而生，随之产生了新式的平装和精装。用这种方式印刷装订的书籍，当年被称为“洋装书”。</li>
+</ol>
+<h2 id="10阐述文献学研究的主要路径p252">10.阐述文献学研究的主要路径(P252)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#10阐述文献学研究的主要路径p252" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>20世纪，特别是后20年，文献学的发展是多途径的。概括起来，约有如下几大系列：</p>
+<ol>
+<li>古典文献学系列，其主要作者有张舜徽、王欣夫、吴枫、罗孟桢、王燕玉、杜泽逊、程千帆、徐有富等。他们基本上以传统古籍整理的方法，即目录、版本、校勘等，加以立说。张舜徽的《中国文献学》，构建了古典文献学的规模，并建立了这一系列研究的基本范式。</li>
+<li>新型文献学系列，洪湛侯在《中国文献学新编》中，用形体、方法、历史、理论四方面来文献学的框架，但其基本内容还是古典文献学的，只是组配的方式有所不同而己。</li>
+<li>分科文献学系列，目前，有文学文献学，历史文献学、档案文献学、社会科学文献学，科技文献学、教育文献学、中医文献学、法律文献学、经济文献学、文学批评文献学等。这一系列的研究并没有一种统一的范式，各自从本学科文献特点出发，以文献揭示为目标，便于人们了解学科文献的面貌。</li>
+<li>分支文献学系列，主要有文献传播学、文献社会学、文献计量学、文献保护学、文献目录学、文献信息学，以及新近所见的文献经济学。这一领域的作者都比较年轻，他们勇于接受新知，运用相关学科的思想、方法，丰富与发展了文献学的研究，他们将成为文献学研究的生力军。</li>
+<li>文献史研究系列，从广义看，文献的编篆、印刷、出版、发行、交流、收藏的历史以及图书史等，均可看成是文献某一侧面的发展史。这方面的著作很多，主要专题史都已涉及，但仍缺少一部综合反映文献发展的史著。</li>
+<li>文献学史系列，目前可以见到的有中国文献学史、中国古典文献学史、中国历史文献学史，其实三者所涉内容基本相同。</li>
+<li>文献学专题系列，如周文骏《文献交流引论》、张欣毅《现代文献论纲要》、朱渊清《中国出土文献与传统学术》等。</li>
+<li>资料结集与工具书的编篆。</li>
+</ol>
+<h2 id="11图书文化的主要内涵-p260">11.图书文化的主要内涵 (P260)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#11图书文化的主要内涵-p260" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>出版文化讨论书籍形成过程中的相关问题，书一旦形成，即可传播与传承，进入了人们收藏的范畴。</li>
+<li>藏书是对书籍进行收藏、整理、研究以及传播的文化活动。在书籍收藏各业务环节基础上形成的藏书环境、藏书风尚、藏书习俗和藏书情趣、藏书精神，构成了藏书文化的基本框架。</li>
+<li>阅读是阅读主体（读者）与文本（可以是一本书，也可以是整个宇宙）相互影响的过程，是阅读主体实践活动与精神活动的一种体现。它可以作为人类的一种文化现象被人们追溯与了解，因为阅读文化要研究书籍生产的最终目的—人类的阅读行为。</li>
+</ol>
+<h2 id="12论述图书馆藏书结构的构成-p264">12.论述图书馆藏书结构的构成 (P264)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#12论述图书馆藏书结构的构成-p264" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>藏书结构是指藏书体系中各组成要素的构成状况及其相互联系。它决定了藏书体系的功能。藏书结构通常有五种构成方式：</p>
+<ol>
+<li>学科结构。它是各学科门类的藏书的比例结构，也是图书馆组织文献信息的基本方式。</li>
+<li>等级结构。图书馆根据文献内容的水平、程度及读者的需求层次，相应地划分出若干层次的收藏级别，并规定各级别应达到的收藏目标。它是图书馆藏书结构的基本框架。</li>
+<li>时间结构。是按文献的出版时间划分的层次结构，反映人类科学文化知识源远流长、继承发展的纵向关系，也是图书馆藏书系统性的反映。如何合理安排藏书的时间结构，是规划藏书体系的重要问题。</li>
+<li>文种结构。是指藏书中各种语言文种出版物的构成状况，反映了图书馆对社会文献信息覆盖的程度，是反映图书馆收藏水平和满足读者需求能力的重要标志。</li>
+<li>文献类型结构。是指藏书中各种不同出版形式、不同知识载体的文献的构成状况。图书馆应加强各种载体的文献资源建设工作，建立多样化的文献类型结构，以满足读者不断增长的多元化需求。</li>
+</ol></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>关系图谱</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-45" aria-expanded="true"><h3>目录</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-1"><a href="#1试述数据信息知识文献之间的关系-p138" data-for="1试述数据信息知识文献之间的关系-p138">1.试述数据、信息、知识、文献之间的关系 (P138)</a></li><li class="depth-1"><a href="#2简述图书馆学研究对象与研究客体的关系-p139" data-for="2简述图书馆学研究对象与研究客体的关系-p139">2.简述图书馆学研究对象与研究客体的关系 P139</a></li><li class="depth-1"><a href="#3简述文献单元与知识单元有哪些区别-p141" data-for="3简述文献单元与知识单元有哪些区别-p141">3.简述文献单元与知识单元有哪些区别 P141</a></li><li class="depth-1"><a href="#4简述图书馆读者权力有哪些-p142" data-for="4简述图书馆读者权力有哪些-p142">4.简述图书馆读者权力有哪些 P142</a></li><li class="depth-1"><a href="#5举出两位图书馆学家试述其主要贡献-p146" data-for="5举出两位图书馆学家试述其主要贡献-p146">5.举出两位图书馆学家，试述其主要贡献 P146</a></li><li class="depth-1"><a href="#6图书馆事业的主要特征有哪些-p148" data-for="6图书馆事业的主要特征有哪些-p148">6.图书馆事业的主要特征有哪些 P148</a></li><li class="depth-1"><a href="#7图书馆事业建设应遵循哪些原则-p148" data-for="7图书馆事业建设应遵循哪些原则-p148">7.图书馆事业建设应遵循哪些原则 P148</a></li><li class="depth-1"><a href="#8试述图书馆工作标准化的作用与意义-p152" data-for="8试述图书馆工作标准化的作用与意义-p152">8.试述图书馆工作标准化的作用与意义 P152</a></li><li class="depth-1"><a href="#9什么是信息资源建设请说明信息资源建设的具体内涵-p153" data-for="9什么是信息资源建设请说明信息资源建设的具体内涵-p153">9.什么是信息资源建设？请说明信息资源建设的具体内涵 P153</a></li><li class="depth-1"><a href="#10什么是数字化信息资源它包括了哪些类型的信息资源-p152" data-for="10什么是数字化信息资源它包括了哪些类型的信息资源-p152">10.什么是数字化信息资源？它包括了哪些类型的信息资源 P152</a></li><li class="depth-1"><a href="#11信息资源建设政策有哪些基本内容-p153-p156" data-for="11信息资源建设政策有哪些基本内容-p153-p156">11.信息资源建设政策有哪些基本内容 P153 P156</a></li><li class="depth-1"><a href="#12何为参考咨询参考咨询的基本内容有哪些-p159" data-for="12何为参考咨询参考咨询的基本内容有哪些-p159">12.何为参考咨询？参考咨询的基本内容有哪些 P159</a></li><li class="depth-1"><a href="#13参考信息源有哪些类型-p164" data-for="13参考信息源有哪些类型-p164">13.参考信息源有哪些类型 P164</a></li><li class="depth-1"><a href="#14书目参考方法主要有哪些-p166" data-for="14书目参考方法主要有哪些-p166">14.书目参考方法主要有哪些 P166</a></li><li class="depth-1"><a href="#15何为虚拟参考咨询虚拟参考咨询有什么特点-p167" data-for="15何为虚拟参考咨询虚拟参考咨询有什么特点-p167">15.何为虚拟参考咨询？虚拟参考咨询有什么特点 P167</a></li><li class="depth-1"><a href="#16虚拟参考咨询有哪些主要方式-p169" data-for="16虚拟参考咨询有哪些主要方式-p169">16.虚拟参考咨询有哪些主要方式 P169</a></li><li class="depth-1"><a href="#17数字图书馆的体系构成有哪些方面-p173-p174" data-for="17数字图书馆的体系构成有哪些方面-p173-p174">17.数字图书馆的体系构成有哪些方面 P173 P174</a></li><li class="depth-1"><a href="#18数字图书馆有哪些功能-p174" data-for="18数字图书馆有哪些功能-p174">18.数字图书馆有哪些功能 P174</a></li><li class="depth-1"><a href="#19我国数字图书馆建设面临的问题有哪些-p175" data-for="19我国数字图书馆建设面临的问题有哪些-p175">19.我国数字图书馆建设面临的问题有哪些 P175</a></li><li class="depth-1"><a href="#20信息资源建设的内容-p154" data-for="20信息资源建设的内容-p154">20.信息资源建设的内容 P154</a></li><li class="depth-1"><a href="#21信息资源建设的原则-p155" data-for="21信息资源建设的原则-p155">21.信息资源建设的原则 P155</a></li><li class="depth-1"><a href="#22郑樵" data-for="22郑樵">22.郑樵</a></li><li class="depth-1"><a href="#23柳诒徽" data-for="23柳诒徽">23.柳诒徽</a></li><li class="depth-1"><a href="#24袁同礼" data-for="24袁同礼">24.袁同礼</a></li><li class="depth-1"><a href="#25刘国钧" data-for="25刘国钧">25.刘国钧</a></li><li class="depth-1"><a href="#26王重民" data-for="26王重民">26.王重民</a></li><li class="depth-1"><a href="#27文献采访" data-for="27文献采访">27.文献采访</a></li><li class="depth-1"><a href="#28书目参考" data-for="28书目参考">28.书目参考</a></li><li class="depth-1"><a href="#29参考咨询" data-for="29参考咨询">29.参考咨询</a></li><li class="depth-1"><a href="#30数字图书馆" data-for="30数字图书馆">30.数字图书馆</a></li><li class="depth-1"><a href="#31个人数字图书馆" data-for="31个人数字图书馆">31.个人数字图书馆</a></li><li class="depth-1"><a href="#32数字典藏" data-for="32数字典藏">32.数字典藏</a></li><li class="depth-1"><a href="#33简述图书馆管理的内容-p151" data-for="33简述图书馆管理的内容-p151">33.简述图书馆管理的内容 P151</a></li><li class="depth-1"><a href="#34文献信息资源建设的原则" data-for="34文献信息资源建设的原则">34.文献信息资源建设的原则</a></li><li class="depth-1"><a href="#35咨询的类型及其作用" data-for="35咨询的类型及其作用">35.咨询的类型及其作用</a></li><li class="depth-1"><a href="#36图书馆参考咨询的内容" data-for="36图书馆参考咨询的内容">36.图书馆参考咨询的内容</a></li><li class="depth-1"><a href="#37图书馆参考咨询的方法" data-for="37图书馆参考咨询的方法">37.图书馆参考咨询的方法</a></li><li class="depth-1"><a href="#38简要回答图书馆参考咨询的特点" data-for="38简要回答图书馆参考咨询的特点">38.简要回答图书馆参考咨询的特点</a></li><li class="depth-1"><a href="#39数字图书馆的技术构成" data-for="39数字图书馆的技术构成">39.数字图书馆的技术构成</a></li><li class="depth-0"><a href="#信息资源组织" data-for="信息资源组织">信息资源组织</a></li><li class="depth-1"><a href="#1什么是信息组织信息检索工具有哪些类型-p177" data-for="1什么是信息组织信息检索工具有哪些类型-p177">1.什么是信息组织？信息检索工具有哪些类型 P177</a></li><li class="depth-1"><a href="#2说说信息组织中常见的处理方法-p178" data-for="2说说信息组织中常见的处理方法-p178">2.说说信息组织中常见的处理方法 P178</a></li><li class="depth-1"><a href="#3什么是信息描述其作用是什么-p179" data-for="3什么是信息描述其作用是什么-p179">3.什么是信息描述？其作用是什么 P179</a></li><li class="depth-1"><a href="#4文献标引有哪些基本的标引方式分类标引工作一般遵循哪些步骤-p183" data-for="4文献标引有哪些基本的标引方式分类标引工作一般遵循哪些步骤-p183">4.文献标引有哪些基本的标引方式？分类标引工作一般遵循哪些步骤？ P183</a></li><li class="depth-1"><a href="#5信息资源分类及其作用是什么分类法有哪些基本类型-p185" data-for="5信息资源分类及其作用是什么分类法有哪些基本类型-p185">5.信息资源分类及其作用是什么？分类法有哪些基本类型 P185</a></li><li class="depth-1"><a href="#6一部完整的分类法一般是由哪些部分组成的说说类目之间的关系及表现形式-p186-p189" data-for="6一部完整的分类法一般是由哪些部分组成的说说类目之间的关系及表现形式-p186-p189">6.一部完整的分类法一般是由哪些部分组成的？说说类目之间的关系及表现形式 P186 P189</a></li><li class="depth-1"><a href="#7对分类标记有哪些基本要求分类标记的种类编号制度有哪些什么是预留空号法八分法双位制借号法-p187-p188" data-for="7对分类标记有哪些基本要求分类标记的种类编号制度有哪些什么是预留空号法八分法双位制借号法-p187-p188">7.对分类标记有哪些基本要求？分类标记的种类、编号制度有哪些？什么是预留空号法、八分法、双位制、借号法 P187 P188</a></li><li class="depth-1"><a href="#8网络分类法与传统分类法有何区别-p190" data-for="8网络分类法与传统分类法有何区别-p190">8.网络分类法与传统分类法有何区别 P190</a></li><li class="depth-1"><a href="#9主题法的特征是什么主题法有哪些基本类型-p192-p194" data-for="9主题法的特征是什么主题法有哪些基本类型-p192-p194">9.主题法的特征是什么？主题法有哪些基本类型 P192 P194</a></li><li class="depth-1"><a href="#10一部完整的叙词表至少应该包括哪两大部分每个大部分有包含哪些内容叙词表中叙词之间主要有哪三种关系叙词表的编制应包括哪几个步骤-p195-p197-p199" data-for="10一部完整的叙词表至少应该包括哪两大部分每个大部分有包含哪些内容叙词表中叙词之间主要有哪三种关系叙词表的编制应包括哪几个步骤-p195-p197-p199">10.一部完整的叙词表至少应该包括哪两大部分？每个大部分有包含哪些内容？叙词表中叙词之间主要有哪三种关系？叙词表的编制应包括哪几个步骤 P195 P197 P199</a></li><li class="depth-1"><a href="#11概要说明范畴索引和词族索引的作用和编制方法-p196" data-for="11概要说明范畴索引和词族索引的作用和编制方法-p196">11.概要说明范畴索引和词族索引的作用和编制方法 P196</a></li><li class="depth-1"><a href="#12什么是轮排索引轮排索引有哪些作用-p197" data-for="12什么是轮排索引轮排索引有哪些作用-p197">12.什么是轮排索引？轮排索引有哪些作用 P197</a></li><li class="depth-1"><a href="#13主题标引时标题确定一般应主意哪些问题简单说说主题标引中的查词规则-p200" data-for="13主题标引时标题确定一般应主意哪些问题简单说说主题标引中的查词规则-p200">13.主题标引时标题确定一般应主意哪些问题。简单说说主题标引中的查词规则 P200</a></li><li class="depth-1"><a href="#14什么是后控词表后控词表有何特点-p202" data-for="14什么是后控词表后控词表有何特点-p202">14.什么是后控词表？后控词表有何特点 P202</a></li><li class="depth-1"><a href="#15信息资源描述" data-for="15信息资源描述">15.信息资源描述</a></li><li class="depth-1"><a href="#16检索点" data-for="16检索点">16.检索点</a></li><li class="depth-1"><a href="#17网络分类法" data-for="17网络分类法">17.网络分类法</a></li><li class="depth-1"><a href="#18叙词" data-for="18叙词">18.叙词</a></li><li class="depth-1"><a href="#19信息资源分类法的类型" data-for="19信息资源分类法的类型">19.信息资源分类法的类型</a></li><li class="depth-0"><a href="#目录学-p204" data-for="目录学-p204">目录学 P204</a></li><li class="depth-1"><a href="#1什么是书目书目有哪些基本类型-p205" data-for="1什么是书目书目有哪些基本类型-p205">1.什么是书目？书目有哪些基本类型 P205</a></li><li class="depth-1"><a href="#2国内外学者对目录学的研究对象有哪些不同的论点-p211-p212" data-for="2国内外学者对目录学的研究对象有哪些不同的论点-p211-p212">2.国内外学者对目录学的研究对象有哪些不同的论点 P211 P212</a></li><li class="depth-1"><a href="#3谈谈我国古代目录学发展的成就与特点-p215" data-for="3谈谈我国古代目录学发展的成就与特点-p215">3.谈谈我国古代目录学发展的成就与特点 P215</a></li><li class="depth-1"><a href="#4请说说文献揭示的基本原则与方法-p219" data-for="4请说说文献揭示的基本原则与方法-p219">4.请说说文献揭示的基本原则与方法 P219</a></li><li class="depth-1"><a href="#5简述书目的编纂方法" data-for="5简述书目的编纂方法">5.简述书目的编纂方法</a></li><li class="depth-1"><a href="#6简述文摘的特点类型和编纂方法-p222" data-for="6简述文摘的特点类型和编纂方法-p222">6.简述文摘的特点、类型和编纂方法 P222</a></li><li class="depth-1"><a href="#7索引有哪些类型索引款目一般应由哪些项目组成一部完整的索引通常应满足哪些条件-p228" data-for="7索引有哪些类型索引款目一般应由哪些项目组成一部完整的索引通常应满足哪些条件-p228">7.索引有哪些类型？索引款目一般应由哪些项目组成？一部完整的索引通常应满足哪些条件 P228</a></li><li class="depth-1"><a href="#8什么是书目情报服务书目情报服务一般包括哪些内容-p231" data-for="8什么是书目情报服务书目情报服务一般包括哪些内容-p231">8.什么是书目情报服务？书目情报服务一般包括哪些内容 P231</a></li><li class="depth-1"><a href="#9书目情报服务的形式和策略各有哪些-p232" data-for="9书目情报服务的形式和策略各有哪些-p232">9.书目情报服务的形式和策略各有哪些 P232</a></li><li class="depth-1"><a href="#10目录学研究的内容-p213" data-for="10目录学研究的内容-p213">10.目录学研究的内容 P213</a></li><li class="depth-1"><a href="#11书目-p204" data-for="11书目-p204">11.书目 P204</a></li><li class="depth-1"><a href="#12国家书目-p205" data-for="12国家书目-p205">12.国家书目 P205</a></li><li class="depth-1"><a href="#13联合目录-p207" data-for="13联合目录-p207">13.联合目录 P207</a></li><li class="depth-1"><a href="#14推荐书目-p208" data-for="14推荐书目-p208">14.推荐书目 P208</a></li><li class="depth-1"><a href="#15索引-p220" data-for="15索引-p220">15.索引 P220</a></li><li class="depth-1"><a href="#16文献揭示的基本方法" data-for="16文献揭示的基本方法">16.文献揭示的基本方法</a></li><li class="depth-1"><a href="#17目录学的主要分支学科-p213" data-for="17目录学的主要分支学科-p213">17.目录学的主要分支学科 P213</a></li><li class="depth-0"><a href="#文献学-p234" data-for="文献学-p234">文献学 P234</a></li><li class="depth-1"><a href="#1试用自己的语言表述图书在人类历史长河中的作用以及图书文化的要以-p259" data-for="1试用自己的语言表述图书在人类历史长河中的作用以及图书文化的要以-p259">1.试用自己的语言，表述图书在人类历史长河中的作用，以及图书文化的要以 P259</a></li><li class="depth-1"><a href="#2概述雕版印刷和活字印刷-p261" data-for="2概述雕版印刷和活字印刷-p261">2.概述雕版印刷和活字印刷 P261</a></li><li class="depth-1"><a href="#3图书装帧的本质属性何在需要遵循的基本原则是什么-p262" data-for="3图书装帧的本质属性何在需要遵循的基本原则是什么-p262">3.图书装帧的本质属性何在？需要遵循的基本原则是什么 P262</a></li><li class="depth-1"><a href="#4区别阅和读并给予合理的解释和适当的发挥" data-for="4区别阅和读并给予合理的解释和适当的发挥">4.区别“阅”和“读”，并给予合理的解释和适当的发挥</a></li><li class="depth-1"><a href="#5文献资源" data-for="5文献资源">5.文献资源</a></li><li class="depth-1"><a href="#6天一阁" data-for="6天一阁">6.天一阁</a></li><li class="depth-1"><a href="#7四库全书" data-for="7四库全书">7.《四库全书》</a></li><li class="depth-1"><a href="#8校勘" data-for="8校勘">8.校勘</a></li><li class="depth-1"><a href="#9版本" data-for="9版本">9.版本</a></li><li class="depth-1"><a href="#10简牍" data-for="10简牍">10.简牍</a></li><li class="depth-1"><a href="#11书林清话叶德辉" data-for="11书林清话叶德辉">11.《书林清话》叶德辉</a></li><li class="depth-1"><a href="#12藏书" data-for="12藏书">12.藏书</a></li><li class="depth-1"><a href="#13善本" data-for="13善本">13.善本</a></li><li class="depth-1"><a href="#14杜定友" data-for="14杜定友">14.杜定友</a></li><li class="depth-1"><a href="#15文献揭示的基本方法" data-for="15文献揭示的基本方法">15.文献揭示的基本方法</a></li><li class="depth-1"><a href="#16史料的内容" data-for="16史料的内容">16.史料的内容</a></li><li class="depth-1"><a href="#17文渊阁四库全书的流传于收藏" data-for="17文渊阁四库全书的流传于收藏">17.文渊阁《四库全书》的流传于收藏</a></li><li class="depth-1"><a href="#18历史文献整理目的与方法" data-for="18历史文献整理目的与方法">18.历史文献整理目的与方法</a></li><li class="depth-1"><a href="#1920世纪80年代中国历史文献建立的主要原因" data-for="1920世纪80年代中国历史文献建立的主要原因">19.20世纪80年代中国历史文献建立的主要原因</a></li><li class="depth-1"><a href="#12历史文献学的研究内容" data-for="12历史文献学的研究内容">12.历史文献学的研究内容</a></li><li class="depth-0"><a href="#论述题" data-for="论述题">论述题</a></li><li class="depth-1"><a href="#1试述数据信息知识文献之间的关系p138" data-for="1试述数据信息知识文献之间的关系p138">1.试述数据、信息、知识、文献之间的关系。(P138)</a></li><li class="depth-1"><a href="#2图书馆管理的内容-p151" data-for="2图书馆管理的内容-p151">2.图书馆管理的内容 (P151)</a></li><li class="depth-1"><a href="#3文献信息资源建设的原则-p155" data-for="3文献信息资源建设的原则-p155">3.文献信息资源建设的原则 (P155)</a></li><li class="depth-1"><a href="#4咨询的类型及其作用-p159" data-for="4咨询的类型及其作用-p159">4.咨询的类型及其作用 (P159)</a></li><li class="depth-1"><a href="#5图书馆参考咨询的内容-p159" data-for="5图书馆参考咨询的内容-p159">5.图书馆参考咨询的内容 (P159)</a></li><li class="depth-1"><a href="#6图书馆参考咨询的方法-p166" data-for="6图书馆参考咨询的方法-p166">6.图书馆参考咨询的方法 (P166)</a></li><li class="depth-1"><a href="#7分类法类目关系-p189" data-for="7分类法类目关系-p189">7.分类法类目关系 (P189)</a></li><li class="depth-1"><a href="#8目录学的主要分支学科-p213" data-for="8目录学的主要分支学科-p213">8.目录学的主要分支学科 (P213)</a></li><li class="depth-1"><a href="#9文献的属性及基本要素-p234" data-for="9文献的属性及基本要素-p234">9.文献的属性及基本要素 (P234)</a></li><li class="depth-1"><a href="#10阐述文献学研究的主要路径p252" data-for="10阐述文献学研究的主要路径p252">10.阐述文献学研究的主要路径(P252)</a></li><li class="depth-1"><a href="#11图书文化的主要内涵-p260" data-for="11图书文化的主要内涵-p260">11.图书文化的主要内涵 (P260)</a></li><li class="depth-1"><a href="#12论述图书馆藏书结构的构成-p264" data-for="12论述图书馆藏书结构的构成-p264">12.论述图书馆藏书结构的构成 (P264)</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>反向链接</h3><ul id="list-2" class="overflow"><li><a href="../信息资源管理笔记/图书馆学" class="internal">图书馆学</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2025</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="../postscript.js" type="module"></script></html>
